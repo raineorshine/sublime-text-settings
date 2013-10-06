@@ -3197,10 +3197,10 @@
 					}
 				},
 				{
-					"file": "/Users/raine/Library/Application Support/Sublime Text 2/README.md",
+					"file": "/Users/raine/Library/Application Support/Sublime Text 2/backup.sh",
 					"settings":
 					{
-						"buffer_size": 117,
+						"buffer_size": 116,
 						"line_ending": "Unix"
 					}
 				}
@@ -3241,6 +3241,7 @@
 			},
 			"file_history":
 			[
+				"/Users/raine/Library/Application Support/Sublime Text 2/README.md",
 				"/Users/raine/Library/Application Support/Sublime Text 2/.gitignore",
 				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/samples/starcraft-data.js",
 				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/exercise-boilerplate.jade",
@@ -3367,8 +3368,7 @@
 				"/Users/raine/bin/git-st",
 				"/Users/raine/Projects/bcoder.io/views/index.jade",
 				"/Users/raine/Projects/simplifiedbooking.com/public/styles/main.css",
-				"/Users/raine/Projects/generator-nodestrap/app/templates/public/styles/main.styl",
-				"/Users/raine/Projects/mmj-costarica/public/styles/main.styl"
+				"/Users/raine/Projects/generator-nodestrap/app/templates/public/styles/main.styl"
 			],
 			"find":
 			{
@@ -3570,8 +3570,8 @@
 								"selection":
 								[
 									[
-										260,
-										260
+										43,
+										43
 									]
 								],
 								"settings":
@@ -3630,18 +3630,18 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/Users/raine/Library/Application Support/Sublime Text 2/README.md",
+							"file": "/Users/raine/Library/Application Support/Sublime Text 2/backup.sh",
 							"settings":
 							{
-								"buffer_size": 117,
+								"buffer_size": 116,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										117,
-										117
+										116,
+										116
 									]
 								],
 								"settings":
@@ -3690,7 +3690,7 @@
 										"bh_single_quote_open",
 										"bh_single_quote_close"
 									],
-									"syntax": "Packages/Markdown/Markdown.tmLanguage"
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
