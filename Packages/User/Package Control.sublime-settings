@@ -1,0 +1,20 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"Emmet",
+		"Jasmine",
+		"Package Control",
+		"QuickFileMove",
+		"RenameTab",
+		"ScopeHunter",
+		"SideBarEnhancements",
+		"SmartMarkdown",
+		"SublimeBlockCursor",
+		"Terminal",
+		"Theme - Soda",
+		"Wrap Plus"
+	]
+}

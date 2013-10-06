@@ -1,0 +1,3369 @@
+{
+	"folder_history":
+	[
+		"/Users/raine/Projects/RefactorU/exercise-starters/client-js/unit-testing-basics",
+		"/Users/raine/Projects/RefactorU/exercise-solutions/client-js/quotes",
+		"/Users/raine/Projects/RefactorU/fall2013-solutions/client-js/mad-metrics",
+		"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/expressive-functional-js",
+		"/Users/raine/Projects/RefactorU/fall2013-solutions/css/card-flip",
+		"/Users/raine/test/refactoru-exercise-starters-master/css/card-flip",
+		"/Users/raine/Projects/RefactorU/refactoru-student-site",
+		"/Users/raine/Projects/refactoru-student-site",
+		"/Users/raine/Student Projects/David Handel/SurveySite",
+		"/Users/raine/Projects/graphicinsightjournaling.com",
+		"/Users/raine/Projects/simplifiedbooking.com",
+		"/Users/raine/Projects/collegecoding-admin",
+		"/Users/raine/Projects/boilerplates/nodestrap",
+		"/Users/raine/Projects/wakefulness/web",
+		"/Users/raine/Google Drive/Web & Programming/Projects/plansquare/www",
+		"/Users/raine/Google Drive/Web & Programming/Projects/collegecoding/webroot",
+		"/Users/raine/Google Drive/Web & Programming/Projects/creatable",
+		"/Users/raine/Google Drive/Web & Programming/Projects/collegecoding/webroot/scripts/src",
+		"/Users/raine/Google Drive/Web & Programming/Projects/minimal-booking/www/public",
+		"/Users/raine/Google Drive/Teaching/Tutoring/Clients/Svitlana Shmargunova",
+		"/Users/raine/Google Drive/Teaching/Tutoring/Clients/Nick Vitullo/Assignment 5"
+	],
+	"last_window_id": 727,
+	"settings":
+	{
+		"new_window_height": 752.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"nav-link",
+						"nav-link-selected"
+					],
+					[
+						"frag",
+						"fragmentNode"
+					],
+					[
+						"deploy-stat",
+						"deploy-static-components"
+					],
+					[
+						"google_con",
+						"google_conversion_id"
+					],
+					[
+						"googl",
+						"google_conversion_value"
+					],
+					[
+						"google",
+						"google_conversion_label"
+					],
+					[
+						"calOpt",
+						"calOptionsStr"
+					],
+					[
+						"mark",
+						"markerLayer"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 335.0,
+				"selected_items":
+				[
+					[
+						"console",
+						"Snippet: console-log"
+					],
+					[
+						"scope",
+						"Scope Hunter: Show Scope Under Cursor(s)"
+					],
+					[
+						"show sc",
+						"Scope Hunter: Show Scope Under Cursor(s)"
+					],
+					[
+						"show",
+						"Scope Hunter: Show Scope Under Cursor(s)"
+					],
+					[
+						"scope hunter",
+						"Scope Hunter: Show Scope Under Cursor(s)"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"packag",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 579.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/console-log.sublime-snippet",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/target_blank.sublime-snippet",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/test-drive-101.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/edit-in-place.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/supplant.js",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/target-blank.sublime-snippet",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/basic-bootstrap.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/wildfire.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/models/exercise.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/infinite-agenda.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/hide-a-form.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/functional-short-answer.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/models/accounts.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/starcraft.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/program.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/samples/starcraft-data.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/exercise-boilerplate.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/expressive-functional-js/filter2.js",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/expressive-functional-js/filter2.html",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/intro-to-jquery.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/how-to-git.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/quotes.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/closure/loop-scope.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/mad-metrics.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/responsive.jade",
+				"/Users/raine/Projects/graphicinsightjournaling.com/views/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/content.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/config/routes.coffee",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/buck-wild-with-jquery/index.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/specificity/index.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/html5-boilerplate.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/specificity/main.css",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/css-layout2/float.html",
+				"/Users/raine/Projects/RefactorU/RefactorU_Project_Promptinator/Promptinator.html",
+				"/Users/raine/Projects/RefactorU/RefactorU_Project_Promptinator/Promptinator.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/defaults.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/profile.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/dashboard.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/profile.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/workflow/git.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/exercise-comments.jade",
+				"/Users/raine/.gitignore",
+				"/Users/raine/Projects/raine-repotest/refactoru-repotest/.gitignore",
+				"/Users/raine/Projects/repotest/index.html",
+				"/Users/raine/Projects/repotest/main.css",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/browsing-behavior.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/underskid.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/string-reporter.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/promptinator.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/disqus.html",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/simple-validator.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/main.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/markup-mockups.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/layout.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/package.json",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/data/exercises.json",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/settings.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/functions.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/colors.styl",
+				"/Users/raine/Projects/RefactorU/5128563/cheatsheet-git.sh",
+				"/Users/raine/.vimrc",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/signup.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/login.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/basic-practice.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/css-basic-practice.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity3.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity1.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity2.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/zen-garden.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/micro-recording.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/card-flip.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/browser-js-basics.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/settings.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/basic-practice.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/card-flip.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/build.css",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/exercises.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/loginform.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/users.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/breadcrumbs.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/*/breadcrumbs.jade",
+				"/Users/raine/Projects/refactoru-student-site/views/pages/index.md",
+				"/Users/raine/Projects/refactoru-student-site/README.md",
+				"/Users/raine/Student Projects/David Handel/SurveySite/app.js",
+				"/Users/raine/.bash_profile",
+				"/Users/raine/Projects/graphicinsightjournaling.com/views/paypayl-button.html",
+				"/Users/raine/Projects/nulu-keyboard-shortcuts/extension/manifest.json",
+				"/Users/raine/Projects/power-learner-nulu/index.js",
+				"/Users/raine/Projects/power-learner-nulu/main.styl",
+				"/Users/raine/Projects/power-learner-nulu/manifest.json",
+				"/Users/raine/Projects/power-learner-nulu/style.css",
+				"/Users/raine/Projects/power-learner-nulu/component.json",
+				"/Users/raine/Projects/power-learner-nulu/components/mousetrap/mousetrap.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex2/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex/index.html",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/javascript structure/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/javascript structure/index.html",
+				"/Users/raine/Google Drive/_Web & Programming/Bookmarklets & Hacks/kiva-lender-loan-count.js",
+				"/Users/raine/Google Drive/_Personal/Self Data & Lists/Top Friends.txt",
+				"/Users/raine/temp/challenges.txt",
+				"/Users/raine/Student Projects/David Handel/SurveySite/routes/question.js",
+				"/Users/raine/Student Projects/David Handel/SurveySite/views/question.jade",
+				"/Users/raine/Student Projects/David Handel/SurveySite/public/javascripts/ajaxSubmit.js",
+				"/Users/raine/Student Projects/David Handel/test",
+				"/Users/raine/test/music.txt",
+				"/Users/raine/test/folder1.txt",
+				"/Users/raine/test/folder0.txt",
+				"/Users/raine/test/u",
+				"/Users/raine/test/t",
+				"/Users/raine/Student Projects/David Handel/SurveySite/views/layout.jade",
+				"/Users/raine/Projects/bcoder.io/views/layout.jade",
+				"/Users/raine/Student Projects/David Handel/SurveySite/public/stylesheets/style.styl",
+				"/Users/raine/Google Drive/School/Graduate School 2013/Areas of Research.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - casa zen.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - couchsurfing pm.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - selva.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - cr entrepreneurs.txt"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"implement",
+					"margin-top",
+					"required",
+					",",
+					" <",
+					">",
+					"(dir='ltr')",
+					"  ",
+					"p",
+					"h2",
+					"  ",
+					"pair",
+					"(dir='ltr')",
+					"animation",
+					"pulse",
+					"you will",
+					":",
+					":{",
+					"rob",
+					"separate",
+					"october",
+					"else",
+					"section",
+					"robert",
+					"michael",
+					"debra",
+					"jennifer",
+					"browsing behavior",
+					"scroll",
+					"test",
+					"code",
+					"git init",
+					"code",
+					"victim",
+					"volunteer",
+					"  ",
+					"(dir='ltr')",
+					"  ",
+					"part i",
+					"  ",
+					"li",
+					"todo",
+					"pair",
+					"  ",
+					"client2",
+					"TODO",
+					"TODOc",
+					"TODO",
+					"\nTODO:",
+					"TODO:",
+					"  ",
+					"wed 9/11",
+					"table",
+					"  ",
+					"week 2",
+					"peer group",
+					"wed",
+					"align-right",
+					"your",
+					"íífor",
+					"nav",
+					"byweek",
+					"exercises",
+					"font-size",
+					"color2",
+					"dark",
+					"margin-bottom 0",
+					"hint",
+					"telep",
+					"hint",
+					"content",
+					"placehex",
+					"initialize",
+					"Not Completed",
+					"Embracing",
+					"validatename",
+					"font-size-scaled",
+					"announce-medium",
+					"@media",
+					"scaled",
+					"button",
+					"font-size	",
+					"font-size ",
+					"announce",
+					"font-size",
+					"link-small",
+					"font-size",
+					"taking",
+					"@media",
+					"content-full",
+					"section",
+					"content-f",
+					"content-full",
+					"app",
+					"space-below",
+					"fluid",
+					"placehold",
+					"panel-tag.png",
+					"panel",
+					"divider",
+					"button",
+					"textgray",
+					"announce",
+					"June",
+					"center-spaced",
+					"mailchimp",
+					"map",
+					"concept map",
+					"html",
+					"date",
+					"under",
+					"underscore",
+					"rscale",
+					"cover",
+					"@media",
+					"@",
+					"cover",
+					"mailchimp",
+					"500",
+					"500\" me",
+					"frameborder",
+					"img",
+					"vh",
+					"notes",
+					"sessions",
+					"buildsession",
+					"sessions",
+					"defaultrate"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					", ",
+					"",
+					"	",
+					"",
+					"name",
+					"",
+					"	",
+					"\\t",
+					"bysection",
+					"",
+					"\\n",
+					"",
+					".png",
+					"\\10",
+					"0",
+					" 0",
+					" ",
+					", \\1\\t",
+					", \\1'",
+					", \\1\\t'",
+					" \\1",
+					" ",
+					"0.jpeg",
+					"-400.jpg",
+					"line"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 114.0
+			},
+			"output.scope_viewer":
+			{
+				"height": 27.0
+			},
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 251.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 823.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"nav-link",
+						"nav-link-selected"
+					],
+					[
+						"frag",
+						"fragmentNode"
+					],
+					[
+						"deploy-stat",
+						"deploy-static-components"
+					],
+					[
+						"google_con",
+						"google_conversion_id"
+					],
+					[
+						"googl",
+						"google_conversion_value"
+					],
+					[
+						"google",
+						"google_conversion_label"
+					],
+					[
+						"calOpt",
+						"calOptionsStr"
+					],
+					[
+						"mark",
+						"markerLayer"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/data/exercises.json",
+					"settings":
+					{
+						"buffer_size": 734,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.jade",
+					"settings":
+					{
+						"buffer_size": 3335,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/main.styl",
+					"settings":
+					{
+						"buffer_size": 3839,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.jade",
+					"settings":
+					{
+						"buffer_size": 3152,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/index.jade",
+					"settings":
+					{
+						"buffer_size": 4776,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/underskid.jade",
+					"settings":
+					{
+						"buffer_size": 862,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"packag",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 579.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/test-drive-101.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/edit-in-place.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/supplant.js",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/target-blank.sublime-snippet",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/basic-bootstrap.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/wildfire.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/models/exercise.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/infinite-agenda.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/hide-a-form.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/functional-short-answer.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/models/accounts.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/starcraft.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/program.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/samples/starcraft-data.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/exercise-boilerplate.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/expressive-functional-js/filter2.js",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/expressive-functional-js/filter2.html",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/intro-to-jquery.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/how-to-git.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/quotes.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/closure/loop-scope.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/mad-metrics.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/responsive.jade",
+				"/Users/raine/Projects/graphicinsightjournaling.com/views/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/content.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/config/routes.coffee",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/buck-wild-with-jquery/index.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/specificity/index.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/html5-boilerplate.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/specificity/main.css",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/css-layout2/float.html",
+				"/Users/raine/Projects/RefactorU/RefactorU_Project_Promptinator/Promptinator.html",
+				"/Users/raine/Projects/RefactorU/RefactorU_Project_Promptinator/Promptinator.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/defaults.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/profile.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/dashboard.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/profile.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/workflow/git.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/exercise-comments.jade",
+				"/Users/raine/.gitignore",
+				"/Users/raine/Projects/raine-repotest/refactoru-repotest/.gitignore",
+				"/Users/raine/Projects/repotest/index.html",
+				"/Users/raine/Projects/repotest/main.css",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/browsing-behavior.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/underskid.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/string-reporter.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/promptinator.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/disqus.html",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/simple-validator.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/main.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/markup-mockups.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/layout.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/package.json",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/data/exercises.json",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/settings.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/functions.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/colors.styl",
+				"/Users/raine/Projects/RefactorU/5128563/cheatsheet-git.sh",
+				"/Users/raine/.vimrc",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/signup.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/login.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/basic-practice.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/css-basic-practice.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity3.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity1.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity2.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/zen-garden.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/micro-recording.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/card-flip.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/browser-js-basics.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/settings.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/basic-practice.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/card-flip.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/build.css",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/exercises.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/loginform.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/users.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/breadcrumbs.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/*/breadcrumbs.jade",
+				"/Users/raine/Projects/refactoru-student-site/views/pages/index.md",
+				"/Users/raine/Projects/refactoru-student-site/README.md",
+				"/Users/raine/Student Projects/David Handel/SurveySite/app.js",
+				"/Users/raine/.bash_profile",
+				"/Users/raine/Projects/graphicinsightjournaling.com/views/paypayl-button.html",
+				"/Users/raine/Projects/nulu-keyboard-shortcuts/extension/manifest.json",
+				"/Users/raine/Projects/power-learner-nulu/index.js",
+				"/Users/raine/Projects/power-learner-nulu/main.styl",
+				"/Users/raine/Projects/power-learner-nulu/manifest.json",
+				"/Users/raine/Projects/power-learner-nulu/style.css",
+				"/Users/raine/Projects/power-learner-nulu/component.json",
+				"/Users/raine/Projects/power-learner-nulu/components/mousetrap/mousetrap.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex2/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex/index.html",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/javascript structure/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/javascript structure/index.html",
+				"/Users/raine/Google Drive/_Web & Programming/Bookmarklets & Hacks/kiva-lender-loan-count.js",
+				"/Users/raine/Google Drive/_Personal/Self Data & Lists/Top Friends.txt",
+				"/Users/raine/temp/challenges.txt",
+				"/Users/raine/Student Projects/David Handel/SurveySite/routes/question.js",
+				"/Users/raine/Student Projects/David Handel/SurveySite/views/question.jade",
+				"/Users/raine/Student Projects/David Handel/SurveySite/public/javascripts/ajaxSubmit.js",
+				"/Users/raine/Student Projects/David Handel/test",
+				"/Users/raine/test/music.txt",
+				"/Users/raine/test/folder1.txt",
+				"/Users/raine/test/folder0.txt",
+				"/Users/raine/test/u",
+				"/Users/raine/test/t",
+				"/Users/raine/Student Projects/David Handel/SurveySite/views/layout.jade",
+				"/Users/raine/Projects/bcoder.io/views/layout.jade",
+				"/Users/raine/Student Projects/David Handel/SurveySite/public/stylesheets/style.styl",
+				"/Users/raine/Google Drive/School/Graduate School 2013/Areas of Research.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - casa zen.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - couchsurfing pm.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - selva.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - cr entrepreneurs.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - expat meetup.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - 3-liner.txt"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"implement",
+					"margin-top",
+					"required",
+					",",
+					" <",
+					">",
+					"(dir='ltr')",
+					"  ",
+					"p",
+					"h2",
+					"  ",
+					"pair",
+					"(dir='ltr')",
+					"animation",
+					"pulse",
+					"you will",
+					":",
+					":{",
+					"rob",
+					"separate",
+					"october",
+					"else",
+					"section",
+					"robert",
+					"michael",
+					"debra",
+					"jennifer",
+					"browsing behavior",
+					"scroll",
+					"test",
+					"code",
+					"git init",
+					"code",
+					"victim",
+					"volunteer",
+					"  ",
+					"(dir='ltr')",
+					"  ",
+					"part i",
+					"  ",
+					"li",
+					"todo",
+					"pair",
+					"  ",
+					"client2",
+					"TODO",
+					"TODOc",
+					"TODO",
+					"\nTODO:",
+					"TODO:",
+					"  ",
+					"wed 9/11",
+					"table",
+					"  ",
+					"week 2",
+					"peer group",
+					"wed",
+					"align-right",
+					"your",
+					"íífor",
+					"nav",
+					"byweek",
+					"exercises",
+					"font-size",
+					"color2",
+					"dark",
+					"margin-bottom 0",
+					"hint",
+					"telep",
+					"hint",
+					"content",
+					"placehex",
+					"initialize",
+					"Not Completed",
+					"Embracing",
+					"validatename",
+					"font-size-scaled",
+					"announce-medium",
+					"@media",
+					"scaled",
+					"button",
+					"font-size	",
+					"font-size ",
+					"announce",
+					"font-size",
+					"link-small",
+					"font-size",
+					"taking",
+					"@media",
+					"content-full",
+					"section",
+					"content-f",
+					"content-full",
+					"app",
+					"space-below",
+					"fluid",
+					"placehold",
+					"panel-tag.png",
+					"panel",
+					"divider",
+					"button",
+					"textgray",
+					"announce",
+					"June",
+					"center-spaced",
+					"mailchimp",
+					"map",
+					"concept map",
+					"html",
+					"date",
+					"under",
+					"underscore",
+					"rscale",
+					"cover",
+					"@media",
+					"@",
+					"cover",
+					"mailchimp",
+					"500",
+					"500\" me",
+					"frameborder",
+					"img",
+					"vh",
+					"notes",
+					"sessions",
+					"buildsession",
+					"sessions",
+					"defaultrate"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					", ",
+					"",
+					"	",
+					"",
+					"name",
+					"",
+					"	",
+					"\\t",
+					"bysection",
+					"",
+					"\\n",
+					"",
+					".png",
+					"\\10",
+					"0",
+					" 0",
+					" ",
+					", \\1\\t",
+					", \\1'",
+					", \\1\\t'",
+					" \\1",
+					" ",
+					"0.jpeg",
+					"-400.jpg",
+					"line"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/raine/Projects/RefactorU/refactoru-student-site"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/data/exercises.json",
+							"settings":
+							{
+								"buffer_size": 734,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										720,
+										720
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 240.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.jade",
+							"settings":
+							{
+								"buffer_size": 3335,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Jade/Jade.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/main.styl",
+							"settings":
+							{
+								"buffer_size": 3839,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3390,
+										3390
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"syntax": "Packages/Stylus/editors/Stylus.tmbundle/Syntaxes/Stylus.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 2780.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.jade",
+							"settings":
+							{
+								"buffer_size": 3152,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										390,
+										390
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Jade/Jade.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/index.jade",
+							"settings":
+							{
+								"buffer_size": 4776,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1534,
+										1534
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Jade/Jade.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 634.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/underskid.jade",
+							"settings":
+							{
+								"buffer_size": 862,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										108,
+										108
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Jade/Jade.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 114.0
+			},
+			"position": "487 339 704 439 0 0 1280 778 ",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 251.0,
+			"status_bar_visible": true,
+			"window_id": 609,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"nav-link",
+						"nav-link-selected"
+					],
+					[
+						"frag",
+						"fragmentNode"
+					],
+					[
+						"deploy-stat",
+						"deploy-static-components"
+					],
+					[
+						"google_con",
+						"google_conversion_id"
+					],
+					[
+						"googl",
+						"google_conversion_value"
+					],
+					[
+						"google",
+						"google_conversion_label"
+					],
+					[
+						"calOpt",
+						"calOptionsStr"
+					],
+					[
+						"mark",
+						"markerLayer"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "streamline volunteer dispatch meeting\n	* chris\n	* steve\n	* don\n	* raine\n	* thomas\nmake availability calendar\n	* thomas\n	* raine\n	* daniel\ntask management meeting\n	* daniel\n	* raine\n\n\n\ndaily checklist\n\n\n\ndonateboulder.org/#volunteer\n* description parsed into schema?\n* add internal org category for volunteer to choose\n* contact info not on donateboulder.org",
+					"settings":
+					{
+						"buffer_size": 357,
+						"line_ending": "Unix",
+						"name": "streamline volunteer dispatch meeting"
+					}
+				},
+				{
+					"contents": "missing simple validator\n=======\nspacebug\nrserota\n\nmissing promptinator\n=======\nrserota\nmjhea0 (waiting for repo refactor)\nallan\n\nincomplete\n-------\njessica\n",
+					"settings":
+					{
+						"buffer_size": 157,
+						"line_ending": "Unix",
+						"name": "missing simple validator"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"packag",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 579.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/program.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/mad-metrics.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/responsive.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/quotes.jade",
+				"/Users/raine/Projects/graphicinsightjournaling.com/views/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/content.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/config/routes.coffee",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/buck-wild-with-jquery/index.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/specificity/index.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/html5-boilerplate.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/specificity/main.css",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/css-layout2/float.html",
+				"/Users/raine/Projects/RefactorU/RefactorU_Project_Promptinator/Promptinator.html",
+				"/Users/raine/Projects/RefactorU/RefactorU_Project_Promptinator/Promptinator.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/defaults.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/profile.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/dashboard.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/profile.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/models/accounts.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/workflow/git.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/how-to-git.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/exercise-comments.jade",
+				"/Users/raine/.gitignore",
+				"/Users/raine/Projects/raine-repotest/refactoru-repotest/.gitignore",
+				"/Users/raine/Projects/repotest/index.html",
+				"/Users/raine/Projects/repotest/main.css",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/browsing-behavior.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/underskid.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/string-reporter.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/promptinator.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/infinite-agenda.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/disqus.html",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/starcraft.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/simple-validator.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/main.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/markup-mockups.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/layout.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/package.json",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/data/exercises.json",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/settings.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/functions.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/colors.styl",
+				"/Users/raine/Projects/RefactorU/5128563/cheatsheet-git.sh",
+				"/Users/raine/.vimrc",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/signup.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/login.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/basic-practice.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/css-basic-practice.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity3.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity1.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity2.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/zen-garden.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/micro-recording.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/card-flip.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/browser-js-basics.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/settings.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/basic-practice.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/card-flip.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/build.css",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/exercises.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/loginform.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/users.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/breadcrumbs.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/*/breadcrumbs.jade",
+				"/Users/raine/Projects/refactoru-student-site/views/pages/index.md",
+				"/Users/raine/Projects/refactoru-student-site/README.md",
+				"/Users/raine/Student Projects/David Handel/SurveySite/app.js",
+				"/Users/raine/.bash_profile",
+				"/Users/raine/Projects/graphicinsightjournaling.com/views/paypayl-button.html",
+				"/Users/raine/Projects/nulu-keyboard-shortcuts/extension/manifest.json",
+				"/Users/raine/Projects/power-learner-nulu/index.js",
+				"/Users/raine/Projects/power-learner-nulu/main.styl",
+				"/Users/raine/Projects/power-learner-nulu/manifest.json",
+				"/Users/raine/Projects/power-learner-nulu/style.css",
+				"/Users/raine/Projects/power-learner-nulu/component.json",
+				"/Users/raine/Projects/power-learner-nulu/components/mousetrap/mousetrap.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex2/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex/index.html",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/javascript structure/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/javascript structure/index.html",
+				"/Users/raine/Google Drive/_Web & Programming/Bookmarklets & Hacks/kiva-lender-loan-count.js",
+				"/Users/raine/Google Drive/_Personal/Self Data & Lists/Top Friends.txt",
+				"/Users/raine/temp/challenges.txt",
+				"/Users/raine/Student Projects/David Handel/SurveySite/routes/question.js",
+				"/Users/raine/Student Projects/David Handel/SurveySite/views/question.jade",
+				"/Users/raine/Student Projects/David Handel/SurveySite/public/javascripts/ajaxSubmit.js",
+				"/Users/raine/Student Projects/David Handel/test",
+				"/Users/raine/test/music.txt",
+				"/Users/raine/test/folder1.txt",
+				"/Users/raine/test/folder0.txt",
+				"/Users/raine/test/u",
+				"/Users/raine/test/t",
+				"/Users/raine/Student Projects/David Handel/SurveySite/views/layout.jade",
+				"/Users/raine/Projects/bcoder.io/views/layout.jade",
+				"/Users/raine/Student Projects/David Handel/SurveySite/public/stylesheets/style.styl",
+				"/Users/raine/Google Drive/School/Graduate School 2013/Areas of Research.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - casa zen.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - couchsurfing pm.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - selva.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - cr entrepreneurs.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - expat meetup.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - 3-liner.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - couchsurfing.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - craigslist.txt",
+				"/Users/raine/Projects/mmj-costarica/views/student-discount-button.html",
+				"/Users/raine/Projects/collegecoding-admin/backup/Procfile",
+				"/Users/raine/Projects/collegecoding-admin/backup/index.coffee",
+				"/Users/raine/.bashrc",
+				"/Users/raine/bin/git-st",
+				"/Users/raine/Projects/bcoder.io/views/index.jade",
+				"/Users/raine/Projects/simplifiedbooking.com/public/styles/main.css",
+				"/Users/raine/Projects/generator-nodestrap/app/templates/public/styles/main.styl",
+				"/Users/raine/Projects/mmj-costarica/public/styles/main.styl",
+				"/Users/raine/Projects/simplifiedbooking.com/package.json",
+				"/Users/raine/Projects/simplifiedbooking.com/views/analytics.html",
+				"/Users/raine/Projects/simplifiedbooking.com/src/app.coffee",
+				"/Users/raine/Projects/generator-nodestrap/app/templates/Gruntfile.coffee",
+				"/Users/raine/Projects/simplifiedbooking.com/Gruntfile.coffee",
+				"/Users/raine/Projects/simplifiedbooking.com/.gitignore",
+				"/Users/raine/Projects/generator-nodestrap/app/templates/_gitignore"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"rob",
+					"separate",
+					"october",
+					"else",
+					"section",
+					"robert",
+					"michael",
+					"debra",
+					"jennifer",
+					"browsing behavior",
+					"scroll",
+					"test",
+					"code",
+					"git init",
+					"code",
+					"victim",
+					"volunteer",
+					"  ",
+					"(dir='ltr')",
+					"  ",
+					"part i",
+					"  ",
+					"li",
+					"todo",
+					"pair",
+					"  ",
+					"client2",
+					"TODO",
+					"TODOc",
+					"TODO",
+					"\nTODO:",
+					"TODO:",
+					"  ",
+					"wed 9/11",
+					"table",
+					"  ",
+					"week 2",
+					"peer group",
+					"wed",
+					"align-right",
+					"your",
+					"íífor",
+					"nav",
+					"byweek",
+					"exercises",
+					"font-size",
+					"color2",
+					"dark",
+					"margin-bottom 0",
+					"hint",
+					"telep",
+					"hint",
+					"content",
+					"placehex",
+					"initialize",
+					"Not Completed",
+					"Embracing",
+					"validatename",
+					"font-size-scaled",
+					"announce-medium",
+					"@media",
+					"scaled",
+					"button",
+					"font-size	",
+					"font-size ",
+					"announce",
+					"font-size",
+					"link-small",
+					"font-size",
+					"taking",
+					"@media",
+					"content-full",
+					"section",
+					"content-f",
+					"content-full",
+					"app",
+					"space-below",
+					"fluid",
+					"placehold",
+					"panel-tag.png",
+					"panel",
+					"divider",
+					"button",
+					"textgray",
+					"announce",
+					"June",
+					"center-spaced",
+					"mailchimp",
+					"map",
+					"concept map",
+					"html",
+					"date",
+					"under",
+					"underscore",
+					"rscale",
+					"cover",
+					"@media",
+					"@",
+					"cover",
+					"mailchimp",
+					"500",
+					"500\" me",
+					"frameborder",
+					"img",
+					"vh",
+					"notes",
+					"sessions",
+					"buildsession",
+					"sessions",
+					"defaultrate",
+					"image",
+					"1200",
+					"img",
+					"theme",
+					"fix",
+					"announce",
+					"media",
+					"costa rica",
+					"gray",
+					"sign up",
+					"center",
+					"dark(",
+					"signup",
+					"dark(",
+					"mega-ann",
+					"vert",
+					"purpose",
+					"hr"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"name",
+					"",
+					"	",
+					"\\t",
+					"bysection",
+					"",
+					"\\n",
+					"",
+					".png",
+					"\\10",
+					"0",
+					" 0",
+					" ",
+					", \\1\\t",
+					", \\1'",
+					", \\1\\t'",
+					" \\1",
+					" ",
+					"0.jpeg",
+					"-400.jpg",
+					"line"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"settings":
+							{
+								"buffer_size": 357,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										113,
+										113
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_name": "streamline volunteer dispatch meeting",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"settings":
+							{
+								"buffer_size": 157,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										142,
+										142
+									]
+								],
+								"settings":
+								{
+									"auto_name": "missing simple validator",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 114.0
+			},
+			"position": "419 4 821 694 0 0 1280 778 ",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 251.0,
+			"status_bar_visible": true,
+			"window_id": 677,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"filter",
+						"filteredQuotes"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"nav-link",
+						"nav-link-selected"
+					],
+					[
+						"frag",
+						"fragmentNode"
+					],
+					[
+						"deploy-stat",
+						"deploy-static-components"
+					],
+					[
+						"google_con",
+						"google_conversion_id"
+					],
+					[
+						"googl",
+						"google_conversion_value"
+					],
+					[
+						"google",
+						"google_conversion_label"
+					],
+					[
+						"calOpt",
+						"calOptionsStr"
+					],
+					[
+						"mark",
+						"markerLayer"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/quotes/index.html",
+					"settings":
+					{
+						"buffer_size": 2459,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/quotes/main.css",
+					"settings":
+					{
+						"buffer_size": 638,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/quotes/main.js",
+					"settings":
+					{
+						"buffer_size": 6202,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "/** Returns a new array that only includes elements that pass the given evaluator function. */\nvar filter = function(arr, f) {\n	var output = [];\n	for(var i=0; i<arr.length; i++) {\n		if(f(arr[i])) {\n			output.push(arr[i]);\n		}\n	}\n	return output;\n};\n\n/** A comparison function that can be used in Array.prototype.sort. Sorts objects by rating, high to low. */\nvar compareByReverseRating = function(a,b) {\n	return a.rating < b.rating ? 1 :\n				 a.rating > b.rating ? -1 :\n				 0;\n\n	/*\n	if(a.rating < b.rating) {\n		return 1;\n	}\n	else if(a.rating > b.rating) {\n		return 1;\n	}\n	*/\n};\n\nvar sortByKey = function(arr, key) {\n	arr.sort(function(a,b) {\n		return a[key] > b[key] ? 1 :\n					 a[key] < b[key] ? -1 :\n					 0;\n	});\n};\n\nvar sortByKeyReverse = function(arr, key) {\n	arr.sort(function(a,b) {\n		return a[key] < b[key] ? 1 :\n					 a[key] > b[key] ? -1 :\n					 0;\n	});\n};\n\n\n/** Performs string interpolation. */\nif (!String.prototype.supplant) {\n  String.prototype.supplant = function (o) {\n    return this.replace(\n      /\\{([^{}]*)\\}/g,\n      function (a, b) {\n        var r = o[b];\n        return typeof r === 'string' || typeof r === 'number' ? r : a;\n      }\n    );\n  };\n}",
+					"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/quotes/utility.js",
+					"file_size": 1074,
+					"file_write_time": 1380648690000000,
+					"settings":
+					{
+						"buffer_size": 1172,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"packag",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 579.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/samples/starcraft-data.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/exercise-boilerplate.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/starcraft.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/expressive-functional-js/filter2.js",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/expressive-functional-js/filter2.html",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/intro-to-jquery.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/how-to-git.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/quotes.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/closure/loop-scope.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/program.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/mad-metrics.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/responsive.jade",
+				"/Users/raine/Projects/graphicinsightjournaling.com/views/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/content.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/config/routes.coffee",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/buck-wild-with-jquery/index.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/specificity/index.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/html5-boilerplate.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/specificity/main.css",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/css-layout2/float.html",
+				"/Users/raine/Projects/RefactorU/RefactorU_Project_Promptinator/Promptinator.html",
+				"/Users/raine/Projects/RefactorU/RefactorU_Project_Promptinator/Promptinator.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/defaults.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/profile.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/dashboard.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/profile.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/models/accounts.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/workflow/git.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/exercise-comments.jade",
+				"/Users/raine/.gitignore",
+				"/Users/raine/Projects/raine-repotest/refactoru-repotest/.gitignore",
+				"/Users/raine/Projects/repotest/index.html",
+				"/Users/raine/Projects/repotest/main.css",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/browsing-behavior.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/underskid.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/string-reporter.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/promptinator.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/infinite-agenda.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/disqus.html",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/simple-validator.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/main.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/markup-mockups.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/layout.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/package.json",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/data/exercises.json",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/settings.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/functions.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/colors.styl",
+				"/Users/raine/Projects/RefactorU/5128563/cheatsheet-git.sh",
+				"/Users/raine/.vimrc",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/signup.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/login.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/basic-practice.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/css-basic-practice.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity3.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity1.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity2.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/zen-garden.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/micro-recording.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/card-flip.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/browser-js-basics.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/settings.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/basic-practice.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/card-flip.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/build.css",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/exercises.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/loginform.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/users.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/breadcrumbs.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/*/breadcrumbs.jade",
+				"/Users/raine/Projects/refactoru-student-site/views/pages/index.md",
+				"/Users/raine/Projects/refactoru-student-site/README.md",
+				"/Users/raine/Student Projects/David Handel/SurveySite/app.js",
+				"/Users/raine/.bash_profile",
+				"/Users/raine/Projects/graphicinsightjournaling.com/views/paypayl-button.html",
+				"/Users/raine/Projects/nulu-keyboard-shortcuts/extension/manifest.json",
+				"/Users/raine/Projects/power-learner-nulu/index.js",
+				"/Users/raine/Projects/power-learner-nulu/main.styl",
+				"/Users/raine/Projects/power-learner-nulu/manifest.json",
+				"/Users/raine/Projects/power-learner-nulu/style.css",
+				"/Users/raine/Projects/power-learner-nulu/component.json",
+				"/Users/raine/Projects/power-learner-nulu/components/mousetrap/mousetrap.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex2/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex/index.html",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/javascript structure/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/javascript structure/index.html",
+				"/Users/raine/Google Drive/_Web & Programming/Bookmarklets & Hacks/kiva-lender-loan-count.js",
+				"/Users/raine/Google Drive/_Personal/Self Data & Lists/Top Friends.txt",
+				"/Users/raine/temp/challenges.txt",
+				"/Users/raine/Student Projects/David Handel/SurveySite/routes/question.js",
+				"/Users/raine/Student Projects/David Handel/SurveySite/views/question.jade",
+				"/Users/raine/Student Projects/David Handel/SurveySite/public/javascripts/ajaxSubmit.js",
+				"/Users/raine/Student Projects/David Handel/test",
+				"/Users/raine/test/music.txt",
+				"/Users/raine/test/folder1.txt",
+				"/Users/raine/test/folder0.txt",
+				"/Users/raine/test/u",
+				"/Users/raine/test/t",
+				"/Users/raine/Student Projects/David Handel/SurveySite/views/layout.jade",
+				"/Users/raine/Projects/bcoder.io/views/layout.jade",
+				"/Users/raine/Student Projects/David Handel/SurveySite/public/stylesheets/style.styl",
+				"/Users/raine/Google Drive/School/Graduate School 2013/Areas of Research.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - casa zen.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - couchsurfing pm.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - selva.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - cr entrepreneurs.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - expat meetup.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - 3-liner.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - couchsurfing.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - craigslist.txt",
+				"/Users/raine/Projects/mmj-costarica/views/student-discount-button.html",
+				"/Users/raine/Projects/collegecoding-admin/backup/Procfile",
+				"/Users/raine/Projects/collegecoding-admin/backup/index.coffee",
+				"/Users/raine/.bashrc",
+				"/Users/raine/bin/git-st",
+				"/Users/raine/Projects/bcoder.io/views/index.jade",
+				"/Users/raine/Projects/simplifiedbooking.com/public/styles/main.css",
+				"/Users/raine/Projects/generator-nodestrap/app/templates/public/styles/main.styl",
+				"/Users/raine/Projects/mmj-costarica/public/styles/main.styl",
+				"/Users/raine/Projects/simplifiedbooking.com/package.json"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"renderquotes",
+					"filter",
+					"quote",
+					"slimquote",
+					"(dir='ltr')",
+					"  ",
+					"p",
+					"h2",
+					"  ",
+					"pair",
+					"(dir='ltr')",
+					"animation",
+					"pulse",
+					"you will",
+					":",
+					":{",
+					"rob",
+					"separate",
+					"october",
+					"else",
+					"section",
+					"robert",
+					"michael",
+					"debra",
+					"jennifer",
+					"browsing behavior",
+					"scroll",
+					"test",
+					"code",
+					"git init",
+					"code",
+					"victim",
+					"volunteer",
+					"  ",
+					"(dir='ltr')",
+					"  ",
+					"part i",
+					"  ",
+					"li",
+					"todo",
+					"pair",
+					"  ",
+					"client2",
+					"TODO",
+					"TODOc",
+					"TODO",
+					"\nTODO:",
+					"TODO:",
+					"  ",
+					"wed 9/11",
+					"table",
+					"  ",
+					"week 2",
+					"peer group",
+					"wed",
+					"align-right",
+					"your",
+					"íífor",
+					"nav",
+					"byweek",
+					"exercises",
+					"font-size",
+					"color2",
+					"dark",
+					"margin-bottom 0",
+					"hint",
+					"telep",
+					"hint",
+					"content",
+					"placehex",
+					"initialize",
+					"Not Completed",
+					"Embracing",
+					"validatename",
+					"font-size-scaled",
+					"announce-medium",
+					"@media",
+					"scaled",
+					"button",
+					"font-size	",
+					"font-size ",
+					"announce",
+					"font-size",
+					"link-small",
+					"font-size",
+					"taking",
+					"@media",
+					"content-full",
+					"section",
+					"content-f",
+					"content-full",
+					"app",
+					"space-below",
+					"fluid",
+					"placehold",
+					"panel-tag.png",
+					"panel",
+					"divider",
+					"button",
+					"textgray",
+					"announce",
+					"June",
+					"center-spaced",
+					"mailchimp",
+					"map",
+					"concept map",
+					"html",
+					"date",
+					"under",
+					"underscore",
+					"rscale",
+					"cover",
+					"@media",
+					"@",
+					"cover",
+					"mailchimp",
+					"500",
+					"500\" me",
+					"frameborder",
+					"img",
+					"vh",
+					"notes",
+					"sessions",
+					"buildsession",
+					"sessions",
+					"defaultrate",
+					"image",
+					"1200"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"",
+					"	",
+					"",
+					"name",
+					"",
+					"	",
+					"\\t",
+					"bysection",
+					"",
+					"\\n",
+					"",
+					".png",
+					"\\10",
+					"0",
+					" 0",
+					" ",
+					", \\1\\t",
+					", \\1'",
+					", \\1\\t'",
+					" \\1",
+					" ",
+					"0.jpeg",
+					"-400.jpg",
+					"line"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/quotes"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/quotes/index.html",
+							"settings":
+							{
+								"buffer_size": 2459,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2227,
+										2227
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 451.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/quotes/main.css",
+							"settings":
+							{
+								"buffer_size": 638,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 217.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/quotes/main.js",
+							"settings":
+							{
+								"buffer_size": 6202,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3623,
+										3623
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 2054.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/quotes/utility.js",
+							"settings":
+							{
+								"buffer_size": 1172,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										150,
+										150
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 114.0
+			},
+			"position": "435 306 845 392 0 0 1280 778 ",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 251.0,
+			"status_bar_visible": true,
+			"window_id": 702,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fun",
+						"fun	Function"
+					],
+					[
+						"for",
+						"for	for (…) {…}"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"nav-link",
+						"nav-link-selected"
+					],
+					[
+						"frag",
+						"fragmentNode"
+					],
+					[
+						"deploy-stat",
+						"deploy-static-components"
+					],
+					[
+						"google_con",
+						"google_conversion_id"
+					],
+					[
+						"googl",
+						"google_conversion_value"
+					],
+					[
+						"google",
+						"google_conversion_label"
+					],
+					[
+						"calOpt",
+						"calOptionsStr"
+					],
+					[
+						"mark",
+						"markerLayer"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/jasmine/splice.js",
+					"settings":
+					{
+						"buffer_size": 850,
+						"line_ending": "Unix",
+						"name": "// This function is not yet implemented, and shoul"
+					}
+				},
+				{
+					"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/spec.js",
+					"settings":
+					{
+						"buffer_size": 3036,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/jasmine/SpecRunner.html",
+					"settings":
+					{
+						"buffer_size": 1233,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/jasmine/spec/my-spec.js",
+					"settings":
+					{
+						"buffer_size": 1206,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/jasmine-it.sublime-snippet",
+					"settings":
+					{
+						"buffer_size": 318,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 159.0,
+				"selected_items":
+				[
+					[
+						"scope",
+						"Scope Hunter: Toggle Instant Scoper"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"console",
+						"Snippet: console-log"
+					],
+					[
+						"show sc",
+						"Scope Hunter: Show Scope Under Cursor(s)"
+					],
+					[
+						"show",
+						"Scope Hunter: Show Scope Under Cursor(s)"
+					],
+					[
+						"scope hunter",
+						"Scope Hunter: Show Scope Under Cursor(s)"
+					],
+					[
+						"packag",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 579.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/jasmine/spec/my-spec.js.jasmine",
+				"/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/jasmine/spec/my-spec.js",
+				"/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/spec.js",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/target_blank.sublime-snippet",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/test-drive-101.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/edit-in-place.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/supplant.js",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/target-blank.sublime-snippet",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/basic-bootstrap.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/wildfire.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/models/exercise.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/infinite-agenda.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/hide-a-form.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/functional-short-answer.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/models/accounts.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/starcraft.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/program.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/samples/starcraft-data.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/exercise-boilerplate.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/expressive-functional-js/filter2.js",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/expressive-functional-js/filter2.html",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/intro-to-jquery.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/how-to-git.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/quotes.jade",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/closure/loop-scope.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/mad-metrics.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/responsive.jade",
+				"/Users/raine/Projects/graphicinsightjournaling.com/views/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/content.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/config/routes.coffee",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/buck-wild-with-jquery/index.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/specificity/index.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/html5-boilerplate.html",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/specificity/main.css",
+				"/Users/raine/Projects/RefactorU/student-sample-code/lectures-and-demos/css-layout2/float.html",
+				"/Users/raine/Projects/RefactorU/RefactorU_Project_Promptinator/Promptinator.html",
+				"/Users/raine/Projects/RefactorU/RefactorU_Project_Promptinator/Promptinator.js",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/defaults.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/profile.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/dashboard.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/profile.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/workflow/git.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/exercise-comments.jade",
+				"/Users/raine/.gitignore",
+				"/Users/raine/Projects/raine-repotest/refactoru-repotest/.gitignore",
+				"/Users/raine/Projects/repotest/index.html",
+				"/Users/raine/Projects/repotest/main.css",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/browsing-behavior.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/underskid.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/string-reporter.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/promptinator.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/disqus.html",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/simple-validator.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/main.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/markup-mockups.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/layout.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/package.json",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/data/exercises.json",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/settings.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/functions.styl",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/src/colors.styl",
+				"/Users/raine/Projects/RefactorU/5128563/cheatsheet-git.sh",
+				"/Users/raine/.vimrc",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/signup.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/login.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/index.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/basic-practice.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/css-basic-practice.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity3.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity1.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/modularity2.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/zen-garden.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/micro-recording.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/card-flip.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/client-js/browser-js-basics.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/settings.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/resources.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/html/basic-practice.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/css/card-flip.md",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/public/css/build.css",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/exercises.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/includes/loginform.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/src/controllers/users.coffee",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/curriculum.",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/breadcrumbs.jade",
+				"/Users/raine/Projects/RefactorU/refactoru-student-site/*/breadcrumbs.jade",
+				"/Users/raine/Projects/refactoru-student-site/views/pages/index.md",
+				"/Users/raine/Projects/refactoru-student-site/README.md",
+				"/Users/raine/Student Projects/David Handel/SurveySite/app.js",
+				"/Users/raine/.bash_profile",
+				"/Users/raine/Projects/graphicinsightjournaling.com/views/paypayl-button.html",
+				"/Users/raine/Projects/nulu-keyboard-shortcuts/extension/manifest.json",
+				"/Users/raine/Projects/power-learner-nulu/index.js",
+				"/Users/raine/Projects/power-learner-nulu/main.styl",
+				"/Users/raine/Projects/power-learner-nulu/manifest.json",
+				"/Users/raine/Projects/power-learner-nulu/style.css",
+				"/Users/raine/Projects/power-learner-nulu/component.json",
+				"/Users/raine/Projects/power-learner-nulu/components/mousetrap/mousetrap.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex2/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex/index.html",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/hex/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/javascript structure/js/createnmovetwo.js",
+				"/Users/raine/Google Drive/_Work/College Coding/Client Management/Client Files/Cat Johnson/javascript structure/index.html",
+				"/Users/raine/Google Drive/_Web & Programming/Bookmarklets & Hacks/kiva-lender-loan-count.js",
+				"/Users/raine/Google Drive/_Personal/Self Data & Lists/Top Friends.txt",
+				"/Users/raine/temp/challenges.txt",
+				"/Users/raine/Student Projects/David Handel/SurveySite/routes/question.js",
+				"/Users/raine/Student Projects/David Handel/SurveySite/views/question.jade",
+				"/Users/raine/Student Projects/David Handel/SurveySite/public/javascripts/ajaxSubmit.js",
+				"/Users/raine/Student Projects/David Handel/test",
+				"/Users/raine/test/music.txt",
+				"/Users/raine/test/folder1.txt",
+				"/Users/raine/test/folder0.txt",
+				"/Users/raine/test/u",
+				"/Users/raine/test/t",
+				"/Users/raine/Student Projects/David Handel/SurveySite/views/layout.jade",
+				"/Users/raine/Projects/bcoder.io/views/layout.jade",
+				"/Users/raine/Student Projects/David Handel/SurveySite/public/stylesheets/style.styl",
+				"/Users/raine/Google Drive/School/Graduate School 2013/Areas of Research.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - casa zen.txt",
+				"/Users/raine/Google Drive/_Conscious Living/Conscious Projects/Graphic Insight Journaling/Marketing/Kaleid Announce - couchsurfing pm.txt"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 95.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"script",
+					"in",
+					"c",
+					"should",
+					"expect",
+					"splice",
+					"\"",
+					"implement",
+					"margin-top",
+					"required",
+					",",
+					" <",
+					">",
+					"(dir='ltr')",
+					"  ",
+					"p",
+					"h2",
+					"  ",
+					"pair",
+					"(dir='ltr')",
+					"animation",
+					"pulse",
+					"you will",
+					":",
+					":{",
+					"rob",
+					"separate",
+					"october",
+					"else",
+					"section",
+					"robert",
+					"michael",
+					"debra",
+					"jennifer",
+					"browsing behavior",
+					"scroll",
+					"test",
+					"code",
+					"git init",
+					"code",
+					"victim",
+					"volunteer",
+					"  ",
+					"(dir='ltr')",
+					"  ",
+					"part i",
+					"  ",
+					"li",
+					"todo",
+					"pair",
+					"  ",
+					"client2",
+					"TODO",
+					"TODOc",
+					"TODO",
+					"\nTODO:",
+					"TODO:",
+					"  ",
+					"wed 9/11",
+					"table",
+					"  ",
+					"week 2",
+					"peer group",
+					"wed",
+					"align-right",
+					"your",
+					"íífor",
+					"nav",
+					"byweek",
+					"exercises",
+					"font-size",
+					"color2",
+					"dark",
+					"margin-bottom 0",
+					"hint",
+					"telep",
+					"hint",
+					"content",
+					"placehex",
+					"initialize",
+					"Not Completed",
+					"Embracing",
+					"validatename",
+					"font-size-scaled",
+					"announce-medium",
+					"@media",
+					"scaled",
+					"button",
+					"font-size	",
+					"font-size ",
+					"announce",
+					"font-size",
+					"link-small",
+					"font-size",
+					"taking",
+					"@media",
+					"content-full",
+					"section",
+					"content-f",
+					"content-full",
+					"app",
+					"space-below",
+					"fluid",
+					"placehold",
+					"panel-tag.png",
+					"panel",
+					"divider",
+					"button",
+					"textgray",
+					"announce",
+					"June",
+					"center-spaced",
+					"mailchimp",
+					"map",
+					"concept map",
+					"html",
+					"date",
+					"under",
+					"underscore",
+					"rscale",
+					"cover",
+					"@media",
+					"@",
+					"cover",
+					"mailchimp",
+					"500",
+					"500\" me",
+					"frameborder"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"expect",
+					"c",
+					"should",
+					"test",
+					"'",
+					", ",
+					"",
+					"	",
+					"",
+					"name",
+					"",
+					"	",
+					"\\t",
+					"bysection",
+					"",
+					"\\n",
+					"",
+					".png",
+					"\\10",
+					"0",
+					" 0",
+					" ",
+					", \\1\\t",
+					", \\1'",
+					", \\1\\t'",
+					" \\1",
+					" ",
+					"0.jpeg",
+					"-400.jpg",
+					"line"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/jasmine/splice.js",
+							"settings":
+							{
+								"buffer_size": 850,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_name": "// This function is not yet implemented, and shoul",
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/spec.js",
+							"settings":
+							{
+								"buffer_size": 3036,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										893,
+										893
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/jasmine/SpecRunner.html",
+							"settings":
+							{
+								"buffer_size": 1233,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										712,
+										712
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/jasmine/spec/my-spec.js",
+							"settings":
+							{
+								"buffer_size": 1206,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1015,
+										1015
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/raine/Library/Application Support/Sublime Text 2/Packages/User/jasmine-it.sublime-snippet",
+							"settings":
+							{
+								"buffer_size": 318,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										79,
+										79
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"default_extension": "sublime-snippet",
+									"syntax": "Packages/XML/XML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 114.0
+			},
+			"output.scope_viewer":
+			{
+				"height": 27.0
+			},
+			"position": "446 4 835 773 0 0 1280 778 ",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"my",
+						"/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/jasmine/spec/my-spec.js"
+					],
+					[
+						"s",
+						"/Users/raine/Projects/RefactorU/exercise-solutions/client-js/test-drive-101/spec.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 251.0,
+			"status_bar_visible": true,
+			"window_id": 723,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/Users/raine/Projects/simplified.sublime-project",
+			"/Users/raine/Projects/mindmapjournaling.com/mmj.sublime-project",
+			"/Users/raine/Google Drive/Web & Programming/Projects/collegecoding/collegecoding.sublime-project",
+			"/Users/raine/Projects/collegecoding-admin/ccadmin.sublime-project",
+			"/Users/raine/Projects/wakefulness/wakefulness.sublime-project",
+			"/Users/raine/Google Drive/Web & Programming/Projects/booksimpl/mnml.sublime-project",
+			"/Users/raine/Google Drive/Web & Programming/Projects/plansquare/plansquare.sublime-project",
+			"/Users/raine/Google Drive/Web & Programming/Projects/minimal-booking/mnml.sublime-project",
+			"/Users/raine/Google Drive/Career_Work/Clients/KULA Causes/kula.sublime-project",
+			"/Users/raine/Google Drive/Career_Work/CollegeCoding/Clients/Svitlana Shmargunova/svitlana.sublime-project",
+			"/Users/raine/Google Drive/Teaching/Tutoring/Clients/Svitlana Shmargunova/svitlana.sublime-project",
+			"/Users/raine/Google Drive/Teaching/Tutoring/Clients/Paula Brunkhorst/IT315IP2/IT315IP2.sublime-project",
+			"/Users/raine/Google Drive/Teaching/Tutoring/Clients/Nick Vitullo/Assignment 5/assignment5.sublime-project",
+			"/Users/raine/Google Drive/Web & Programming/Python/multiagent/multiagent.sublime-project",
+			"/Users/raine/Downloads/Game1.sublime-project",
+			"/Users/raine/Google Drive/Web & Programming/Python/pacman/pacman.sublime-project"
+		]
+	}
+}
