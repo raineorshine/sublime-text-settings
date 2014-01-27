@@ -4,7 +4,9 @@
 	[
 		"Alignment",
 		"BracketHighlighter",
+		"Color Highlighter",
 		"Emmet",
+		"GotoLastEdit",
 		"Jasmine",
 		"Package Control",
 		"QuickFileMove",

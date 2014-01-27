@@ -1,6 +1,5 @@
 import os
 import re
-import thread
 import subprocess
 import functools
 import time
@@ -31,11 +30,11 @@ class JasmineSwitchBetweenCodeAndSpec(sublime_plugin.TextCommand):
       return JasmineSwitchBetweenCodeAndSpec.BaseFile(file_name)
 
   def is_enabled(self):
-    return self.current_file().possible_alternate_files()
+    return not not self.current_file().possible_alternate_files()
 
   def run(self, args):
     possible_alternates = self.current_file().possible_alternate_files()
-    alternates = self.project_files(lambda(file): file in possible_alternates)
+    alternates = self.project_files(lambda file: file in possible_alternates)
     if alternates:
       self.window().open_file(alternates.pop())
     else:
