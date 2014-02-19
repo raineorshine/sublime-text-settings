@@ -5,6 +5,8 @@
 	[
 	],
 	"tab_size": 2,
+	"theme": "Soda Dark 3.sublime-theme",
+	"soda_classic_tabs": true,
 	"translate_tabs_to_spaces": false,
 	"vintage_start_in_command_mode": true,
 	"word_wrap": true

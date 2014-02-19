@@ -2,12 +2,52 @@
 	"licensed": true,
 	"packages":
 	[
-		"Package Control"
+		"Package Control",
+		"Package Control",
+		"Package Control",
+		"Jade",
+		"Package Control",
+		"Jade",
+		"Package Control",
+		"Jade",
+		"Package Control",
+		"Jade",
+		"Package Control",
+		"Quick File Move",
+		"Jade",
+		"Package Control",
+		"Quick File Move",
+		"Jade",
+		"Package Control",
+		"Quick File Move",
+		"Jade",
+		"Package Control",
+		"Quick File Move",
+		"Jade",
+		"Package Control",
+		"Quick File Move",
+		"Jade",
+		"Package Control",
+		"Quick File Move",
+		"Theme - Soda",
+		"Jade",
+		"Package Control",
+		"Quick File Move",
+		"Theme - Soda",
+		"Jade",
+		"Package Control",
+		"Quick File Move",
+		"Theme - Soda",
+		"Emmet",
+		"Jade",
+		"Package Control",
+		"Quick File Move",
+		"Theme - Soda"
 	],
-	"startup_sec": 0.48252,
+	"startup_sec": 4.069449,
 	"syntax":
 	{
-		"JSON": 9
+		"JSON": 15
 	},
 	"time": 1392827315
 }

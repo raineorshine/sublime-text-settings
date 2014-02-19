@@ -1,9 +1,10 @@
 {
 	"folder_history":
 	[
+		"/Users/raine/Projects/RefactorU/refactoru-student-site"
 	],
-	"last_version": 3059,
-	"last_window_id": 3,
+	"last_version": 3061,
+	"last_window_id": 6,
 	"log_indexing": false,
 	"settings":
 	{
@@ -19,9 +20,21 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 347.0,
+				"height": 47.0,
 				"selected_items":
 				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"package list",
+						"Package Control: List Packages"
+					],
+					[
+						"scr",
+						"Set Syntax: JavaScript"
+					]
 				],
 				"width": 449.0
 			},
@@ -44,6 +57,7 @@
 			},
 			"file_history":
 			[
+				"/Users/raine/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 			],
 			"find":
 			{
@@ -141,10 +155,18 @@
 			"buffers":
 			[
 				{
+					"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/index.jade",
+					"settings":
+					{
+						"buffer_size": 8361,
+						"line_ending": "Unix"
+					}
+				},
+				{
 					"file": "/Users/raine/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 231,
+						"buffer_size": 270,
 						"line_ending": "Unix"
 					}
 				}
@@ -152,9 +174,41 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 347.0,
+				"height": 227.0,
 				"selected_items":
 				[
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"jade",
+						"Set Syntax: Jade"
+					],
+					[
+						"package list",
+						"Package Control: List Packages"
+					],
+					[
+						"scr",
+						"Set Syntax: JavaScript"
+					]
 				],
 				"width": 449.0
 			},
@@ -177,10 +231,11 @@
 			},
 			"file_history":
 			[
+				"/Users/raine/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 25.0
 			},
 			"find_in_files":
 			{
@@ -194,6 +249,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					": "
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -208,33 +264,68 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"follow_symlinks": true,
+					"path": "/Users/raine/Projects/RefactorU/refactoru-student-site"
+				}
+			],
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/raine/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/index.jade",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 231,
+								"buffer_size": 8361,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										132,
-										132
+										371,
+										371
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
 									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/raine/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 270,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										153,
+										153
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -248,7 +339,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 34.0
 			},
 			"input":
 			{
@@ -285,7 +376,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 46.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -306,11 +397,11 @@
 			},
 			"select_symbol":
 			{
-				"height": 0.0,
+				"height": 392.0,
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 856.0
 			},
 			"settings":
 			{
@@ -319,12 +410,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 199.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 1,
+			"window_id": 6,
 			"workspace_name": ""
 		}
 	],
