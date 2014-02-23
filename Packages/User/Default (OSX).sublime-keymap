@@ -1,60 +1,83 @@
 [
-	// basic movement in command mode
-	{ 
-		"keys": ["e"], 
-		"command": "move", 
-		"args": { "by": "lines", "forward": false },
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+	// movement in command mode
+	// up
+	{
+		"keys": ["e"],
+		"command": "set_motion",
+		"args": { 
+			"motion": "move", 
+			"motion_args": {"by": "lines", "extend": false, "forward": false }
+		},
+		"context": [{ "key": "setting.command_mode" }]
 	},
+	// down
 	{ 
 		"keys": ["n"], 
-		"command": "move", 
+		"command": "set_motion", 
 		"args": {
-			"by": "lines", "forward": true
+			"motion": "move",
+			"motion_args": {"by": "lines", "extend": false, "forward": true }
 		},
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"context": [{ "key": "setting.command_mode" }]
 	},
+	// left
 	{ 
 		"keys": ["h"], 
 		"command": "move", 
-		"args": {
-			"by": "characters", "forward": false
-		},
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"args": {"by": "characters", "forward": false },
+		"context": [{ "key": "setting.command_mode" }]
 	},
+	// right
 	{ 
 		"keys": ["i"], 
 		"command": "move", 
-		"args": {
-			"by": "characters", "forward": true
-		},
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"args": {"by": "characters", "forward": true },
+		"context": [{ "key": "setting.command_mode" }]
 	},
 
 	// shift movement in command mode
+	// up
 	{ 
 		"keys": ["E"], 
 		"command": "move", 
 		"args": { "by": "lines", "forward": false, "extend": true },
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"context": [{ "key": "setting.command_mode" }]
 	},
+	// down
 	{ 
 		"keys": ["N"], 
 		"command": "move", 
 		"args": {"by": "lines", "forward": true, "extend": true },
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"context": [{ "key": "setting.command_mode" }]
 	},
+	// left
 	{ 
 		"keys": ["H"], 
 		"command": "move", 
 		"args": {"by": "characters", "forward": false, "extend": true },
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"context": [{ "key": "setting.command_mode" }]
 	},
+	// right
 	{ 
 		"keys": ["I"], 
 		"command": "move", 
 		"args": {"by": "characters", "forward": true, "extend": true },
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"context": [{ "key": "setting.command_mode" }]
+	},
+
+	// page movement in command mode
+	// up
+	{
+		"keys": ["super+e"],
+		"command": "vi_scroll_lines",
+		"args": { "forward": false },
+		"context": [{ "key": "setting.command_mode" }]
+	},
+	// down
+	{
+		"keys": ["super+n"],
+		"command": "vi_scroll_lines",
+		"context": [{ "key": "setting.command_mode" }]
 	},
 
 	// move by 5 lines at a time in command mode
@@ -63,7 +86,7 @@
 		"keys": ["E"], 
 		"command": "move_multi", 
 		"args": { "by": "lines", "amount": -5 },
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"context": [{ "key": "setting.command_mode" }]
 	},*/
 
 	// move up or down by 5 lines in insert mode
@@ -71,120 +94,97 @@
 		"keys": ["super+shift+e"], 
 		"command": "move_multi", 
 		"args": { "by": "lines", "amount": -5 },
-		"context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false }]
+		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 	{ 
 		"keys": ["super+shift+n"], 
 		"command": "move_multi", 
 		"args": { "by": "lines", "amount": 5 },
-		"context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false }]
+		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 
 	// insert (bumped from 'i')
 	{ 
 		"keys": ["k"], 
 		"command": "enter_insert_mode",
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"context": [{ "key": "setting.command_mode" }]
 	},
 
 	// escape insert mode
 	{ 
 		"keys": ["super+k"], 
 		"command": "exit_insert_mode",
-		"context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false }]
-	},
-
-	// save
-	{ 
-		"keys": ["s"], 
-		"command": "save",
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 
 	// basic movement without leaving insert mode
 	{ 
 		"keys": ["super+e"], 
 		"command": "move", 
-		"args": { "by": "lines", "forward": false }
+		"args": { "by": "lines", "forward": false },
+		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 	{ 
 		"keys": ["super+n"], 
 		"command": "move", 
-		"args": {
-			"by": "lines", "forward": true
-		}
+		"args": { "by": "lines", "forward": true },
+		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 	{
 		"keys": ["super+h"], 
 		"command": "move", 
-		"args": {
-			"by": "characters", "forward": false
-		}
+		"args": { "by": "characters", "forward": false },
+		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 	{ 
 		"keys": ["super+i"], 
 		"command": "move", 
-		"args": {
-			"by": "characters", "forward": true
-		}
+		"args": { "by": "characters", "forward": true },
+		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 
 	// move by words in insert mode
 	{
 		"keys": ["super+shift+h"], 
 		"command": "move", 
-		"args": {
-			"by": "words",
-			"forward": false
-		}
+		"args": { "by": "words", "forward": false }
 	},
 	{ 
 		"keys": ["super+shift+i"], 
 		"command": "move", 
-		"args": {
-			"by": "words",
-			"forward": true
-		}
+		"args": { "by": "words", "forward": true }
 	},
 
 	// move to beginning of line (INSERT MODE)
 	{
 		"keys": ["super+0"], 
 		"command": "move_to", 
-		"args": {
-			"to": "bol"
-		},
-		"context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false }]
+		"args": { "to": "bol" },
+		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 
 	// move to end of line in (INSERT MODE)
 	{
 		"keys": ["super+shift+0"], 
 		"command": "move_to", 
-		"args": {
-			"to": "eol"
-		},
-		"context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false }]
+		"args": { "to": "eol" },
+		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 
 	// change 0 to go to bol not hardbol (COMMAND MODE)
 	{
 		"keys": ["0"], 
 		"command": "move_to", 
-		"args": {
-			"to": "bol"
-		},
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"args": { "to": "bol" },
+		"context": [{ "key": "setting.command_mode" }]
 	},
 
 	// shift+0 mimics $ (COMMAND MODE)
 	{
 		"keys": [")"],
 		"command": "move_to", 
-		"args": {
-			"to": "eol"
-		},
-		"context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.is_widget", "operand": false }]
+		"args": { "to": "eol" },
+		"context": [{ "key": "setting.command_mode" }]
 	},
 
 	// new tab
@@ -194,6 +194,51 @@
 	{ "keys": ["ctrl+/"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 
 	// open user key bindings
-	{ "keys": ["super+shift+,"], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} }
+	{ 
+		"keys": ["super+shift+,"], 
+		"command": "open_file", 
+		"args": { "file": "${packages}/User/Default (OSX).sublime-keymap"
+		}
+	},
+
+	{ "keys": ["super+shift+r"], "command": "quick_file_move" },
+
+	{ "keys": ["super+alt+a"], "command": "alignment" },
 	
+	{ 
+		"keys": [";"], 
+		"command": "single_selection", 
+		"context": [{ "key": "setting.command_mode" }]
+	},
+	{ "keys": ["super+;"], "command": "split_selection_into_lines" },
+
+	// move to screen top (bumped from H)
+	{
+		"keys": ["T"],
+		"command": "set_motion", 
+		"args": {
+			"motion": "move_caret_to_screen_top", 
+			"linewise": true, 
+			"motion_args": { "repeat": 1 }
+		}
+	},
+
+	{ "keys": ["super+alt+h"], "command": "jshint" },
+	{ "keys": ["super+alt+h"], "command": "jshint_clear_annotations" }
+
+	// {
+	// 	"keys": ["}"],
+	// 	"command": "set_motion",
+	// 	"args": {
+	// 		"motion": "move",
+	// 		"motion_args": {
+	// 			"by": "stops",
+	// 			"empty_line": true,
+	// 			"extend": true,
+	// 			"forward": true,
+	// 			"separators": "",
+	// 			"word_begin": false
+	// 		}
+	// 	}
+	// }
 ]

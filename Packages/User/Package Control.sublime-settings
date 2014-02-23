@@ -1,9 +1,21 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
+		"Better CoffeeScript",
+		"Bootstrap 3 Jade Snippets",
 		"Emmet",
+		"Git",
+		"GitGutter",
 		"Jade",
+		"JSHint Gutter",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Monokai Extended",
+		"PackageResourceViewer",
 		"Quick File Move",
+		"SCSS",
+		"SideBarEnhancements",
 		"Terminal",
 		"Theme - Soda"
 	]
