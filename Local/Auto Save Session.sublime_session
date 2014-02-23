@@ -332,6 +332,14 @@
 					}
 				},
 				{
+					"file": "/Users/raine/Library/Application Support/Sublime Text 3/backup.sh",
+					"settings":
+					{
+						"buffer_size": 118,
+						"line_ending": "Unix"
+					}
+				},
+				{
 					"file": "/Users/raine/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
 					"settings":
 					{
@@ -597,7 +605,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 3,
 					"sheets":
 					[
 						{
@@ -626,7 +634,7 @@
 								"translation.y": 2878.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 5,
 							"type": "text"
 						},
 						{
@@ -655,7 +663,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 4,
 							"type": "text"
 						},
 						{
@@ -671,8 +679,8 @@
 								"selection":
 								[
 									[
-										5299,
-										5299
+										5341,
+										5341
 									]
 								],
 								"settings":
@@ -681,14 +689,42 @@
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 3252.0,
+								"translation.y": 3470.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/raine/Library/Application Support/Sublime Text 3/backup.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 118,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										59,
+										59
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
 							"type": "text"
 						},
 						{
-							"buffer": 3,
+							"buffer": 4,
 							"file": "/Users/raine/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
 							"semi_transient": false,
 							"settings":
@@ -712,11 +748,11 @@
 								"translation.y": -17.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
-							"buffer": 4,
+							"buffer": 5,
 							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/src/config/passport.coffee",
 							"semi_transient": false,
 							"settings":
@@ -741,11 +777,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
-							"buffer": 5,
+							"buffer": 6,
 							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/lib/config/passport.js",
 							"semi_transient": false,
 							"settings":
@@ -782,11 +818,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 5,
+							"stack_index": 6,
 							"type": "text"
 						},
 						{
-							"buffer": 6,
+							"buffer": 7,
 							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/problem-set/4.jade",
 							"semi_transient": false,
 							"settings":
@@ -811,11 +847,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 8,
+							"stack_index": 9,
 							"type": "text"
 						},
 						{
-							"buffer": 7,
+							"buffer": 8,
 							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/node/jade.jade",
 							"semi_transient": false,
 							"settings":
@@ -840,11 +876,11 @@
 								"translation.y": 1260.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 9,
+							"stack_index": 10,
 							"type": "text"
 						},
 						{
-							"buffer": 8,
+							"buffer": 9,
 							"semi_transient": false,
 							"settings":
 							{
@@ -881,11 +917,11 @@
 								"translation.y": 3095.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 6,
+							"stack_index": 7,
 							"type": "text"
 						},
 						{
-							"buffer": 9,
+							"buffer": 10,
 							"file": "/Users/raine/Projects/RefactorU/refactoru-student-site/views/exercises/node/contest.jade",
 							"semi_transient": false,
 							"settings":
@@ -910,7 +946,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 7,
+							"stack_index": 8,
 							"type": "text"
 						}
 					]
