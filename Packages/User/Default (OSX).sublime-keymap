@@ -220,7 +220,8 @@
 			"motion": "move_caret_to_screen_top", 
 			"linewise": true, 
 			"motion_args": { "repeat": 1 }
-		}
+		},
+		"context": [{ "key": "setting.command_mode" }]
 	},
 
 	{ "keys": ["super+alt+h"], "command": "jshint" },
