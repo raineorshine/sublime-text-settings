@@ -1,9 +1,13 @@
 <snippet>
 	<content><![CDATA[
-console.log ${1}
+describe('${1:module}', function() {
+	it('should ${2:do something}', function() {
+		${3:onething}.should.equal(${4:true});
+	});
+});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>c</tabTrigger>
+	<tabTrigger>describe</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.coffee</scope>
+	<scope>source.js</scope>
 </snippet>
