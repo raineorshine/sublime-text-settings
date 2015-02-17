@@ -6,7 +6,7 @@
 		"command": "set_motion",
 		"args": { 
 			"motion": "move", 
-			"motion_args": {"by": "lines", "extend": false, "forward": false }
+			"motion_args": {"by": "lines", "extend": true, "forward": false }
 		},
 		"context": [{ "key": "setting.command_mode" }]
 	},
@@ -16,22 +16,28 @@
 		"command": "set_motion", 
 		"args": {
 			"motion": "move",
-			"motion_args": {"by": "lines", "extend": false, "forward": true }
+			"motion_args": {"by": "lines", "extend": true, "forward": true }
 		},
 		"context": [{ "key": "setting.command_mode" }]
 	},
 	// left
 	{ 
 		"keys": ["h"], 
-		"command": "move", 
-		"args": {"by": "characters", "forward": false },
+		"command": "set_motion",
+		"args": {
+			"motion": "move",
+			"motion_args": {"by": "characters", "extend": true, "forward": false },
+		},
 		"context": [{ "key": "setting.command_mode" }]
 	},
 	// right
 	{ 
 		"keys": ["i"], 
-		"command": "move", 
-		"args": {"by": "characters", "forward": true },
+		"command": "set_motion", 
+		"args": {
+			"motion": "move",
+			"motion_args": {"by": "characters", "extend": true, "forward": true },
+		},
 		"context": [{ "key": "setting.command_mode" }]
 	},
 
@@ -174,9 +180,18 @@
 	// change 0 to go to bol not hardbol (COMMAND MODE)
 	{
 		"keys": ["0"], 
-		"command": "move_to", 
-		"args": { "to": "bol" },
-		"context": [{ "key": "setting.command_mode" }]
+		"command": "set_motion", 
+		"args": { 
+			"motion": "move_to",
+			"motion_args": {
+				"to": "bol" ,
+				"extend": "true"
+			}
+		},
+		"context": [
+			{ "key": "setting.command_mode" },
+			{ "key": "vi_has_repeat_digit", "operand": false }
+		]
 	},
 
 	// shift+0 mimics $ (COMMAND MODE)
@@ -287,11 +302,13 @@
 	shift+space
 	l
 	j
+	,
 	*/
 
 	/* TODO
 	- space for %
 	- have } ignore white-space only lines and move to first non-whispace line
 	- swap , and `
+	- swap D with dd (you can use d$)
 	*/
 ]

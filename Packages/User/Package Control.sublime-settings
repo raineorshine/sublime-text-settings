@@ -1,25 +1,45 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"Alignment",
 		"Better CoffeeScript",
 		"Bootstrap 3 Jade Snippets",
 		"BracketHighlighter",
+		"BufferScroll",
 		"Clickable URLs",
+		"DashDoc",
+		"EditorConfig",
 		"Emmet",
+		"Enhanced Clojure",
+		"FindResultsApplyChanges",
 		"Git",
 		"GitGutter",
+		"Handlebars",
 		"Jade",
 		"JSHint Gutter",
 		"Markdown Extended",
 		"Markdown Preview",
+		"Package Control",
 		"PackageResourceViewer",
+		"PlainTasks",
+		"Project Manager",
+		"PureScript",
 		"Quick File Move",
+		"RevertFontSize",
 		"SCSS",
 		"SideBarEnhancements",
 		"Simple Print Function",
 		"Stylus",
 		"Terminal",
-		"Theme - Soda"
+		"Theme - Soda",
+		"WordCount"
 	]
 }

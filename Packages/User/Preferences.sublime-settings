@@ -1,10 +1,11 @@
 {
+	"bs_sintax": "plain text",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"font_size": 11,
+	"font_size": 12,
 	"ignored_packages":
 	[
 	],
-	"revert_font_size": 11,
+	"revert_font_size": 12,
 	"soda_classic_tabs": true,
 	"tab_size": 2,
 	"theme": "Soda Dark 3.sublime-theme",
