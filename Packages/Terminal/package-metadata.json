@@ -1,1 +1,1 @@
-{"version": "1.4.0", "url": "http://wbond.net/sublime_packages/terminal", "description": "Launch terminals from the current file or the root project folder"}
+{"description": "Launch terminals from the current file or the root project folder", "dependencies": [], "version": "1.6.0", "platforms": ["*"], "url": "http://wbond.net/sublime_packages/terminal", "sublime_text": "*"}

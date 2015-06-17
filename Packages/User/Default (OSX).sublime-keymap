@@ -4,16 +4,16 @@
 	{
 		"keys": ["e"],
 		"command": "set_motion",
-		"args": { 
-			"motion": "move", 
+		"args": {
+			"motion": "move",
 			"motion_args": {"by": "lines", "extend": true, "forward": false }
 		},
 		"context": [{ "key": "setting.command_mode" }]
 	},
 	// down
-	{ 
-		"keys": ["n"], 
-		"command": "set_motion", 
+	{
+		"keys": ["n"],
+		"command": "set_motion",
 		"args": {
 			"motion": "move",
 			"motion_args": {"by": "lines", "extend": true, "forward": true }
@@ -21,8 +21,8 @@
 		"context": [{ "key": "setting.command_mode" }]
 	},
 	// left
-	{ 
-		"keys": ["h"], 
+	{
+		"keys": ["h"],
 		"command": "set_motion",
 		"args": {
 			"motion": "move",
@@ -31,9 +31,9 @@
 		"context": [{ "key": "setting.command_mode" }]
 	},
 	// right
-	{ 
-		"keys": ["i"], 
-		"command": "set_motion", 
+	{
+		"keys": ["i"],
+		"command": "set_motion",
 		"args": {
 			"motion": "move",
 			"motion_args": {"by": "characters", "extend": true, "forward": true },
@@ -43,30 +43,30 @@
 
 	// shift movement in command mode
 	// up
-	{ 
-		"keys": ["E"], 
-		"command": "move", 
+	{
+		"keys": ["E"],
+		"command": "move",
 		"args": { "by": "lines", "forward": false, "extend": true },
 		"context": [{ "key": "setting.command_mode" }]
 	},
 	// down
-	{ 
-		"keys": ["N"], 
-		"command": "move", 
+	{
+		"keys": ["N"],
+		"command": "move",
 		"args": {"by": "lines", "forward": true, "extend": true },
 		"context": [{ "key": "setting.command_mode" }]
 	},
 	// left
-	{ 
-		"keys": ["H"], 
-		"command": "move", 
+	{
+		"keys": ["H"],
+		"command": "move",
 		"args": {"by": "characters", "forward": false, "extend": true },
 		"context": [{ "key": "setting.command_mode" }]
 	},
 	// right
-	{ 
-		"keys": ["I"], 
-		"command": "move", 
+	{
+		"keys": ["I"],
+		"command": "move",
 		"args": {"by": "characters", "forward": true, "extend": true },
 		"context": [{ "key": "setting.command_mode" }]
 	},
@@ -86,102 +86,133 @@
 		"context": [{ "key": "setting.command_mode" }]
 	},
 
+	// move to word end (mimic original Vim behavior)
+	{
+		"keys": ["E"],
+		"command": "set_motion",
+		"context": [{ "key": "setting.command_mode" }],
+		"args": {
+			"motion": "move",
+			"motion_args": {
+				"by": "subword_ends",
+				"forward": true,
+				"extend": true
+			}
+		},
+	},
+
+	// move to word end (mimic original Vim behavior)
+	{
+		"keys": ["N"],
+		"command": "set_motion",
+		"context": [{ "key": "setting.command_mode" }],
+		"args": {
+			"motion": "move",
+			"motion_args": {
+				"by": "subword_ends",
+				"forward": false,
+				"extend": true
+			}
+		},
+	},
+
+
 	// move by 5 lines at a time in command mode
-	// Plugin dependency: Preferences/User/Move_caret_forwardCommand.py 
-	/*{ 
-		"keys": ["E"], 
-		"command": "move_multi", 
+	// Plugin dependency: Preferences/User/Move_caret_forwardCommand.py
+	/*{
+		"keys": ["E"],
+		"command": "move_multi",
 		"args": { "by": "lines", "amount": -5 },
 		"context": [{ "key": "setting.command_mode" }]
 	},*/
 
 	// move up or down by 5 lines in insert mode
-	{ 
-		"keys": ["super+shift+e"], 
-		"command": "move_multi", 
+	{
+		"keys": ["super+shift+e"],
+		"command": "move_multi",
 		"args": { "by": "lines", "amount": -5 },
 		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
-	{ 
-		"keys": ["super+shift+n"], 
-		"command": "move_multi", 
+	{
+		"keys": ["super+shift+n"],
+		"command": "move_multi",
 		"args": { "by": "lines", "amount": 5 },
 		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 
 	// insert (bumped from 'i')
-	{ 
-		"keys": ["k"], 
+	{
+		"keys": ["k"],
 		"command": "enter_insert_mode",
 		"context": [{ "key": "setting.command_mode" }]
 	},
 
 	// escape insert mode
-	{ 
-		"keys": ["super+k"], 
+	{
+		"keys": ["super+k"],
 		"command": "exit_insert_mode",
 		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 
 	// basic movement without leaving insert mode
-	{ 
-		"keys": ["super+e"], 
-		"command": "move", 
+	{
+		"keys": ["super+e"],
+		"command": "move",
 		"args": { "by": "lines", "forward": false },
 		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
-	{ 
-		"keys": ["super+n"], 
-		"command": "move", 
+	{
+		"keys": ["super+n"],
+		"command": "move",
 		"args": { "by": "lines", "forward": true },
 		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 	{
-		"keys": ["super+h"], 
-		"command": "move", 
+		"keys": ["super+h"],
+		"command": "move",
 		"args": { "by": "characters", "forward": false },
 		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
-	{ 
-		"keys": ["super+i"], 
-		"command": "move", 
+	{
+		"keys": ["super+i"],
+		"command": "move",
 		"args": { "by": "characters", "forward": true },
 		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 
 	// move by words in insert mode
 	{
-		"keys": ["super+shift+h"], 
-		"command": "move", 
+		"keys": ["super+shift+h"],
+		"command": "move",
 		"args": { "by": "words", "forward": false }
 	},
-	{ 
-		"keys": ["super+shift+i"], 
-		"command": "move", 
+	{
+		"keys": ["super+shift+i"],
+		"command": "move",
 		"args": { "by": "words", "forward": true }
 	},
 
 	// move to beginning of line (INSERT MODE)
 	{
-		"keys": ["super+0"], 
-		"command": "move_to", 
+		"keys": ["super+0"],
+		"command": "move_to",
 		"args": { "to": "bol" },
 		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 
 	// move to end of line in (INSERT MODE)
 	{
-		"keys": ["super+shift+0"], 
-		"command": "move_to", 
+		"keys": ["super+shift+0"],
+		"command": "move_to",
 		"args": { "to": "eol" },
 		"context": [{ "key": "setting.command_mode", "operand": false }]
 	},
 
 	// change 0 to go to bol not hardbol (COMMAND MODE)
 	{
-		"keys": ["0"], 
-		"command": "set_motion", 
-		"args": { 
+		"keys": ["0"],
+		"command": "set_motion",
+		"args": {
 			"motion": "move_to",
 			"motion_args": {
 				"to": "bol" ,
@@ -197,7 +228,7 @@
 	// shift+0 mimics $ (COMMAND MODE)
 	{
 		"keys": [")"],
-		"command": "move_to", 
+		"command": "move_to",
 		"args": { "to": "eol" },
 		"context": [{ "key": "setting.command_mode" }]
 	},
@@ -209,9 +240,9 @@
 	{ "keys": ["ctrl+/"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 
 	// open user key bindings
-	{ 
-		"keys": ["super+shift+,"], 
-		"command": "open_file", 
+	{
+		"keys": ["super+shift+,"],
+		"command": "open_file",
 		"args": { "file": "${packages}/User/Default (OSX).sublime-keymap"
 		}
 	},
@@ -219,10 +250,10 @@
 	{ "keys": ["super+shift+r"], "command": "quick_file_move" },
 
 	{ "keys": ["super+alt+a"], "command": "alignment" },
-	
-	{ 
-		"keys": [";"], 
-		"command": "single_selection", 
+
+	{
+		"keys": [";"],
+		"command": "single_selection",
 		"context": [{ "key": "setting.command_mode" }]
 	},
 	{ "keys": ["super+;"], "command": "split_selection_into_lines" },
@@ -230,10 +261,10 @@
 	// move to screen top (bumped from H)
 	{
 		"keys": ["T"],
-		"command": "set_motion", 
+		"command": "set_motion",
 		"args": {
-			"motion": "move_caret_to_screen_top", 
-			"linewise": true, 
+			"motion": "move_caret_to_screen_top",
+			"linewise": true,
 			"motion_args": { "repeat": 1 }
 		},
 		"context": [{ "key": "setting.command_mode" }]
@@ -268,14 +299,17 @@
 		}]
 	},
 
+	{ "keys": ["ctrl+i"], "command": "indent_and_braces" },
+	{ "keys": ["j"], "command": "delete_matching_brackets" },
+
 	// not sure why this isn't working
 	// {
 	// 	"keys": [" "],
 	// 	"command": "set_motion",
 	// 	"context": [{ "key": "setting.command_mode" }],
 	// 	"args": [{
-	// 		"inclusive": true, 
-	// 		"motion": "vi_move_to_brackets", 
+	// 		"inclusive": true,
+	// 		"motion": "vi_move_to_brackets",
 	// 		"motion_args": {
 	// 			"repeat": 1
 	// 		}
@@ -306,7 +340,7 @@
 	*/
 
 	/* TODO
-	- space for %
+	- space[] for %
 	- have } ignore white-space only lines and move to first non-whispace line
 	- swap , and `
 	- swap D with dd (you can use d$)

@@ -2,11 +2,6 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
-	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -15,14 +10,17 @@
 		"BracketHighlighter",
 		"BufferScroll",
 		"Clickable URLs",
+		"Console Wrap for js",
 		"DashDoc",
 		"EditorConfig",
 		"Emmet",
 		"Enhanced Clojure",
+		"Expand Selection to Function (JavaScript)",
 		"FindResultsApplyChanges",
 		"Git",
 		"GitGutter",
 		"Handlebars",
+		"Indent and braces",
 		"Jade",
 		"JSHint Gutter",
 		"Markdown Extended",

@@ -1,0 +1,1261 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"upgradeDepen",
+				"upgradeDependencyDeclaration"
+			],
+			[
+				"upgraded",
+				"upgradeDependencies"
+			],
+			[
+				"package",
+				"packageName"
+			],
+			[
+				"latestVe",
+				"latestVersions"
+			],
+			[
+				"unconstra",
+				"unconstrainedCurrentVersion"
+			],
+			[
+				"lat",
+				"latestDependencies"
+			],
+			[
+				"dest_",
+				"dest_css"
+			],
+			[
+				"racer",
+				"racerBrowserChannel"
+			],
+			[
+				"hotd",
+				"hotdogs"
+			],
+			[
+				"hot",
+				"hotdogEl"
+			],
+			[
+				"desc",
+				"descEl"
+			],
+			[
+				"price",
+				"priceEl"
+			],
+			[
+				"name",
+				"nameEl"
+			],
+			[
+				"scirp",
+				"scriptsDest"
+			],
+			[
+				"script",
+				"scriptsSrc"
+			],
+			[
+				"all",
+				"allDependencies"
+			],
+			[
+				"closest",
+				"closestPackage"
+			],
+			[
+				"coent",
+				"contenteditable"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/raine/projects/generator-raine-app/app/templates/_package.json",
+			"settings":
+			{
+				"buffer_size": 1548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/raine/projects/generator-raine-app/app/templates/gulpfile.coffee",
+			"settings":
+			{
+				"buffer_size": 4095,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/raine/projects/generator-raine-app/app/templates/README.md",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"txt",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/raine/projects/generator-raine-app",
+		"/Users/raine/projects/generator-raine-app/app",
+		"/Users/raine/projects/generator-raine-app/app/templates",
+		"/Users/raine/projects/generator-raine-app/app/templates/app",
+		"/Users/raine/projects/generator-raine-app/app/templates/app/views",
+		"/Users/raine/projects/generator-raine-app/app/templates/src"
+	],
+	"file_history":
+	[
+		"/Users/raine/projects/generator-raine-app/app/templates/_gitignore",
+		"/Users/raine/projects/generator-raine-app/app/templates/_gitattributes",
+		"/Users/raine/projects/generator-raine-app/node_modules/mocha/lib/template.html",
+		"/Users/raine/projects/generator-raine-app/node_modules/yeoman-generator/node_modules/shelljs/src/toEnd.js",
+		"/Users/raine/projects/generator-raine-app/test/test-creation.js",
+		"/Users/raine/projects/generator-raine-app/node_modules/camelize/readme.markdown",
+		"/Users/raine/projects/generator-raine-app/app/templates/README.md",
+		"/Users/raine/projects/generator-raine-app/node_modules/coffee-script/README",
+		"/Users/raine/projects/generator-raine-app/README.md",
+		"/Users/raine/projects/generator-raine-app/app/templates/app/views/layout.jade",
+		"/Users/raine/projects/generator-raine-app/app/templates/app/views/index.jade",
+		"/Users/raine/Library/Application Support/Sublime Text 3/Packages/User/Projects/process-journaling-app.sublime-project",
+		"/Users/raine/projects/racer-examples/package.json",
+		"/Users/raine/projects/racer-examples/pad/server.js",
+		"/Users/raine/projects/racer-examples/todos/templates.coffee",
+		"/Users/raine/projects/racer-examples/node_modules/racer-bundle/node_modules/browserify/test/bin_tr_error.js",
+		"/Users/raine/projects/process-journaling-app/src/views/index.jade",
+		"/Users/raine/projects/process-journaling-app/node_modules/browserify/test/error_code/src.js",
+		"/Users/raine/projects/process-journaling-app/node_modules/gulp/node_modules/liftoff/lib/silent_require.js",
+		"/Users/raine/projects/process-journaling-app/node_modules/newrelic/SECURITY.md",
+		"/Users/raine/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/raine/projects/npm-check-updates/README.md",
+		"/Users/raine/projects/npm-check-updates/.git/MERGE_MSG",
+		"/Users/raine/projects/npm-check-updates/deploy.md",
+		"/Users/raine/projects/npm-check-updates/package.json",
+		"/Users/raine/projects/npm-check-updates/.git/COMMIT_EDITMSG",
+		"/Users/raine/projects/npm-check-updates/node_modules/cint/HISTORY.md",
+		"/Users/raine/projects/npm-check-updates/node_modules/cint/header.ejs",
+		"/Users/raine/projects/npm-check-updates/node_modules/cint/cint.js",
+		"/Users/raine/projects/npm-check-updates/node_modules/lodash/internal/cacheIndexOf.js",
+		"/Users/raine/projects/npm-check-updates/node_modules/npm/configure",
+		"/Users/raine/projects/npm-check-updates/node_modules/lodash/lang/isBoolean.js",
+		"/Users/raine/projects/npm-check-updates/node_modules/lodash/array/lastIndexOf.js",
+		"/Users/raine/projects/npm-check-updates/LICENSE",
+		"/Users/raine/projects/npm-check-updates/node_modules/npm/node_modules/child-process-close/test/test-exec.js",
+		"/Users/raine/projects/npm-check-updates/test/testversionmanager.js",
+		"/Users/raine/test/a/package",
+		"/Users/raine/projects/npm-check-updates/node_modules/npm/test/tap/invalid-cmd-exit-code.js",
+		"/Users/raine/projects/npm-check-updates/node_modules/lodash/collection/invoke.js",
+		"/Users/raine/projects/npm-check-updates/node_modules/lodash/lang/isNative.js",
+		"/Users/raine/projects/npm-check-updates/node_modules/closest-package/index.js",
+		"/Users/raine/projects/npm-check-updates/node_modules/lodash/internal/getView.js",
+		"/Users/raine/projects/x-to-y/package.json",
+		"/Users/raine/projects/x-to-y/node_modules/browserify/test/tr_args.js",
+		"/Users/raine/projects/x-to-y/node_modules/lodash/array/takeRight.js",
+		"/Users/raine/projects/x-to-y/gulpfile.coffee",
+		"/Users/raine/projects/x-to-y/node_modules/lodash/internal/toObject.js",
+		"/Users/raine/projects/x-to-y/TODO",
+		"/Users/raine/projects/x-to-y/.travis.yml",
+		"/Users/raine/projects/x-to-y/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/lib/hacks/transform-value.js",
+		"/Users/raine/projects/x-to-y/README.md",
+		"/Users/raine/projects/generator-raine-app/app/templates/test/spec.coffee",
+		"/Users/raine/projects/generator-raine-app/app/templates/Procfile",
+		"/Users/raine/projects/generator-raine-app/app/templates/newrelic.js",
+		"/Users/raine/projects/generator-raine-app/app/templates/gulpfile.coffee",
+		"/Users/raine/projects/convertui/package.json",
+		"/Users/raine/projects/convertui/README.md",
+		"/Users/raine/projects/generator-raine-app/app/templates/_package.json",
+		"/Users/raine/projects/convertui/src/views/layout.jade",
+		"/Users/raine/projects/convertui/src/convert.coffee",
+		"/Users/raine/projects/convertui/app/controllers/index.js",
+		"/Users/raine/projects/convertui/src/controllers/index.coffee",
+		"/Users/raine/projects/convertui/node_modules/coffee-script/CONTRIBUTING.md",
+		"/Users/raine/projects/convertui/app/convert.js",
+		"/Users/raine/projects/convertui/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/css-opacity.json",
+		"/Users/raine/projects/convertui/.bowerrc",
+		"/Users/raine/projects/convertui/bower.json",
+		"/Users/raine/projects/convertui/node_modules/mocha/node_modules/jade/runtime.js",
+		"/Users/raine/projects/convertui/node_modules/browserify/node_modules/umd/README.md",
+		"/Users/raine/projects/convertui/node_modules/body-parser/node_modules/raw-body/.npmignore",
+		"/Users/raine/projects/convertui/node_modules/browserify/node_modules/.bin/browser-pack",
+		"/Users/raine/projects/convertui/node_modules/browserify/node_modules/browser-resolve/test/modules.js",
+		"/Users/raine/projects/convertui/node_modules/browserify/node_modules/.bin/module-deps",
+		"/Users/raine/projects/convertui/node_modules/browserify/test/double_buffer.js",
+		"/Users/raine/projects/convertui/node_modules/newrelic/test/lib/obfuscation-data.json",
+		"/Users/raine/projects/convertui/node_modules/imagemin/node_modules/optimist/example/usage-options.js",
+		"/Users/raine/projects/convertui/node_modules/imagemin/bin/uninstall",
+		"/Users/raine/projects/convertui/node_modules/browserify/test/entry.js",
+		"/Users/raine/projects/convertui/node_modules/.bin/_mocha",
+		"/Users/raine/projects/convertui/node_modules/browserify/node_modules/resolve/test/node_path.js",
+		"/Users/raine/projects/convertui/node_modules/express/node_modules/debug/node.js",
+		"/Users/raine/projects/convertui/node_modules/coffee-script/lib/coffee-script/nodes.js",
+		"/Users/raine/projects/convertui/node_modules/gulp-ng-annotate/node_modules/ng-annotate/tests/ngmin-tests/ngmin_original.js",
+		"/Users/raine/projects/convertui/newrelic.js",
+		"/Users/raine/projects/convertui/app/public/styles/main.css",
+		"/Users/raine/projects/convertui/app/views/layout.jade",
+		"/Users/raine/projects/convertui/src/index.coffee",
+		"/Users/raine/projects/convertui/app/views/index.jade",
+		"/Users/raine/projects/convertui/node_modules/gulp-util/lib/isNull.js",
+		"/Users/raine/projects/convertui/app/public/scripts/components/material-colors/dist/colors.sass",
+		"/Users/raine/projects/convertui/node_modules/imagemin/node_modules/colors/colors.js",
+		"/Users/raine/projects/convertui/app/public/scripts/components/material-design-icons/image/svg/design/ic_control_point_duplicate_24px.svg",
+		"/Users/raine/projects/convertui/app/public/scripts/components/material-design-icons/image/svg/design/ic_control_point_24px.svg",
+		"/Users/raine/projects/convertui/node_modules/gulp-sass/node_modules/node-sass/src/libsass/ast.cpp",
+		"/Users/raine/projects/convertui/node_modules/imagemin/node_modules/node-pngcrush/src/pngcrush/adler32.c",
+		"/Users/raine/projects/convertui/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-svgo/node_modules/svgo/node_modules/coa/src/arg.coffee",
+		"/Users/raine/projects/convertui/node_modules/gulp/node_modules/liftoff/lib/silent_require.js",
+		"/Users/raine/projects/convertui/node_modules/newrelic/SECURITY.md",
+		"/Users/raine/projects/convertui/node_modules/browserify/test/error_code/src.js",
+		"/Users/raine/projects/convertui/node_modules/express/lib/application.js",
+		"/Users/raine/projects/convertui/node_modules/gulp-cache/node_modules/lodash-node/compat/internals/arrayPool.js",
+		"/Users/raine/projects/convertui/newrelic_agent.log",
+		"/Users/raine/projects/convertui/node_modules/gulp-sass/node_modules/node-sass/node_modules/request/node_modules/tough-cookie/public-suffix.txt",
+		"/Users/raine/projects/convertui/src/public/scripts/index.coffee",
+		"/Users/raine/projects/convertui/node_modules/gulp-jshint/node_modules/jshint/node_modules/shelljs/src/pushd.js",
+		"/Users/raine/projects/convertui/node_modules/imagemin/node_modules/node-pngcrush/src/png_compress.cpp",
+		"/Users/raine/projects/convertui/gulpfile.coffee",
+		"/Users/raine/projects/convertui/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/lib/hacks/border-radius.js",
+		"/Users/raine/projects/convertui/src/public/scripts/components/material-colors/dist/colors.sass",
+		"/Users/raine/projects/convertui/node_modules/newrelic/test/versioned/express3-redis/views/status_dropdown.jade",
+		"/Users/raine/projects/convertui/node_modules/.bin/jade",
+		"/Users/raine/projects/convertui/node_modules/newrelic/test/versioned/express3-redis/views/room.jade",
+		"/Users/raine/projects/convertui/node_modules/mocha/lib/reporters/templates/coverage.jade",
+		"/Users/raine/projects/convertui/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-svgo/node_modules/svgo/lib/svgo/jsAPI.js",
+		"/Users/raine/projects/convertui/app/index.js",
+		"/Users/raine/projects/convertui/src/public/styles/main.sass",
+		"/Users/raine/projects/convertui/node_modules/browserify/node_modules/browser-pack/node_modules/combine-source-map/node_modules/inline-source-map/.travis.yml",
+		"/Users/raine/projects/convertui/node_modules/newrelic/test/unit/agent/intrinsics.test.js",
+		"/Users/raine/projects/convertui/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/Users/raine/projects/convertui/node_modules/.bin/mocha",
+		"/Users/raine/projects/convertui/node_modules/gulp-jshint/node_modules/jshint/src/style.js",
+		"/Users/raine/projects/convertui/node_modules/insist/node_modules/stack-trace/lib/stack-trace.js",
+		"/Users/raine/projects/process-journaling-app/app/controllers/index.js",
+		"/Users/raine/projects/process-journaling-app/src/index.coffee",
+		"/Users/raine/projects/process-journaling-app/app/index.js",
+		"/Users/raine/projects/process-journaling-app/newrelic.js",
+		"/Users/raine/projects/process-journaling-app/node_modules/browserify/test/delay.js",
+		"/Users/raine/projects/process-journaling-app/src/client.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"-node_modules/*, -dist/*, -bower_components/*",
+			"",
+			"-node_modules/*, -dist/*, -bower_components/*",
+			"-node_modules/*, -dist/*",
+			"-node_modules/*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"plumber",
+			"clean",
+			"srcimg",
+			"clean",
+			"null",
+			"bundle",
+			"templates.",
+			"history",
+			"writepackagefile",
+			"upgradePackageFile",
+			"writepackagefile",
+			"program",
+			"splitList",
+			"splitlist",
+			"readPackageFile",
+			"isEmpty",
+			"version",
+			"upgradeDependencies",
+			"upgradedDependencies",
+			"upgradeDependencies",
+			"upgradedDependencies",
+			"upgradeDependencies",
+			"getGreatestPackageVersion",
+			"isUnstable",
+			"latestVersion",
+			"currentVersion",
+			"unconstrainedCurrentVersion",
+			"getPackageVersion",
+			"pkgid",
+			"failed",
+			"upgradePackageDefinitions",
+			"getlatestversions",
+			"getLatestVersions",
+			"getGreatestPackageVersion",
+			"getgreatest",
+			"getgreatestpackag",
+			"getGreatest",
+			"getPackageVersion",
+			"errorCollectorWrapper",
+			"try",
+			"upgradeDependencies",
+			"upgradedependencydeclaration",
+			"upgradeDependencies",
+			"invalid version",
+			"srcViews",
+			"views",
+			"destviews",
+			"clean",
+			"chai",
+			"nodemon",
+			"srcsass",
+			"Promise",
+			"bower",
+			"clean",
+			"Watcher",
+			"concat",
+			"destCss",
+			"srcSass",
+			"_(\\w)",
+			"src_sass",
+			"stream",
+			"styles'",
+			"above500",
+			"pull-down",
+			"outputHeight",
+			"slide",
+			"dest_views",
+			"bower",
+			"clean",
+			"  ",
+			"style",
+			"  ",
+			"//",
+			"var ",
+			"replaceText",
+			"local",
+			"\\.ref",
+			"\\.at",
+			"onInput",
+			"replaceText",
+			"client",
+			"unhandled document message",
+			"unhandled",
+			"unhandled document message",
+			"cheapdogs[i]",
+			"containerEl",
+			"entityhandler",
+			"prev",
+			"	",
+			"\n	",
+			"requ",
+			"exec",
+			" =",
+			".trim()",
+			"trim",
+			"match",
+			"matches",
+			"  ",
+			"jshint",
+			"  ",
+			"[“”]",
+			"comments\": [^0]",
+			"checkitems\": [^0]",
+			"\"labels\": \\[[^]]",
+			"\"labels\": \\[",
+			"labels\": \\[\\\"",
+			"label",
+			"starred",
+			"\"due\": \"",
+			"due",
+			"date",
+			"\"desc\": \"\\w",
+			"\"description\": true",
+			"attachment",
+			"//.*\\n",
+			"\\n+",
+			"\\t",
+			"run ",
+			".length",
+			"getinstalledpackages",
+			"getInstalledPackages",
+			"analyzeGlobalPackages",
+			"upgradePackageDefinitions",
+			"getLatestVersions",
+			"getLatestPackageVersion",
+			"upgradeDependencies",
+			"exit",
+			"automatically"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\U$1",
+			"\\L$1",
+			"\\t",
+			"",
+			"\\n",
+			"\\t",
+			"'",
+			"\\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/raine/projects/generator-raine-app/app/templates/_package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								961,
+								961
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "json",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"buffer_scroll_name": "d9e67058",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 136.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/raine/projects/generator-raine-app/app/templates/gulpfile.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "coffeescript",
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"buffer_scroll_name": "e097049e",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/raine/projects/generator-raine-app/app/templates/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "markdown",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"buffer_scroll_name": "877bd669",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "generator-raine-app.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"template/gitig",
+				"app/templates/_gitignore"
+			],
+			[
+				"readme",
+				"app/templates/README.md"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"packag",
+				"package.json"
+			],
+			[
+				"templates",
+				"todos/templates.coffee"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"history",
+				"node_modules/cint/HISTORY.md"
+			],
+			[
+				"deploy",
+				"deploy.md"
+			],
+			[
+				"cint.js",
+				"node_modules/cint/cint.js"
+			],
+			[
+				"lib/",
+				"lib/npm-check-updates.js"
+			],
+			[
+				"testve",
+				"test/testversionmanager.js"
+			],
+			[
+				"travis",
+				".travis.yml"
+			],
+			[
+				"packae",
+				"package.json"
+			],
+			[
+				"gulpfi",
+				"gulpfile.coffee"
+			],
+			[
+				"todo",
+				"TODO"
+			],
+			[
+				"newr",
+				"newrelic.js"
+			],
+			[
+				"controllersindex",
+				"src/controllers/index.coffee"
+			],
+			[
+				"bowerrc",
+				".bowerrc"
+			],
+			[
+				"gulpf",
+				"gulpfile.coffee"
+			],
+			[
+				"layout",
+				"src/views/layout.jade"
+			],
+			[
+				"index.coffee",
+				"src/index.coffee"
+			],
+			[
+				"main.css",
+				"app/public/styles/main.css"
+			],
+			[
+				"colors.sass",
+				"app/public/scripts/components/material-colors/dist/colors.sass"
+			],
+			[
+				"controllers/",
+				"src/controllers/index.coffee"
+			],
+			[
+				"src/indexcoffee",
+				"src/index.coffee"
+			],
+			[
+				"src/",
+				"src/convert.coffee"
+			],
+			[
+				"src/public/scripts",
+				"src/public/scripts/index.coffee"
+			],
+			[
+				"src/indexjade",
+				"src/views/index.jade"
+			],
+			[
+				"index",
+				"app/views/index.jade"
+			],
+			[
+				"main.sass",
+				"src/public/styles/main.sass"
+			],
+			[
+				"index.jade",
+				"src/views/index.jade"
+			],
+			[
+				"clien",
+				"client.coffee"
+			],
+			[
+				"serv",
+				"server.coffee"
+			],
+			[
+				"ap",
+				"app.js"
+			],
+			[
+				"spec.c",
+				"test/spec.coffee"
+			],
+			[
+				"index.js",
+				"lib/index.js"
+			],
+			[
+				"npm-check",
+				"lib/npm-check-updates.js"
+			],
+			[
+				"post",
+				"content/themes/casper/post.hbs"
+			],
+			[
+				"layout.jade",
+				"src/views/layout.jade"
+			],
+			[
+				"_package",
+				"app/templates/_package.json"
+			],
+			[
+				"gitignore",
+				"app/templates/_gitignore"
+			],
+			[
+				"gulpfile",
+				"app/templates/gulpfile.coffee"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"newrelic",
+				"newrelic.js"
+			],
+			[
+				"proc",
+				"Procfile"
+			],
+			[
+				"main",
+				"main.js"
+			],
+			[
+				"config/",
+				"src/config/express.coffee"
+			],
+			[
+				"escape",
+				"node_modules/request/node_modules/hawk/node_modules/hoek/lib/escape.js"
+			],
+			[
+				"wakeup",
+				"views/exercises/js/wakeup-time.jade"
+			],
+			[
+				"pairings",
+				"public/js/src/pairings.coffee"
+			],
+			[
+				"pairs",
+				"public/js/lib/pairings.js"
+			],
+			[
+				"lecture",
+				"views/resources/lecture-outlines.md"
+			],
+			[
+				"deep-dive",
+				"views/exercises/html/deep-dive.jade"
+			],
+			[
+				"card-flip",
+				"views/exercises/html/card-flip.md"
+			],
+			[
+				"exercisesindex",
+				"views/exercises/index.jade"
+			],
+			[
+				"ajax-countr",
+				"views/exercises/node/ajax-countries.jade"
+			],
+			[
+				"lingo",
+				"views/exercises/node/lingo.jade"
+			],
+			[
+				"online",
+				"views/exercises/node/online-job-app.jade"
+			],
+			[
+				"shell",
+				"views/exercises/node/mongo-shell.jade"
+			],
+			[
+				"mongo-sh",
+				"views/exercises/node/mongo-shell.jade"
+			],
+			[
+				"ajax-c",
+				"views/exercises/node/ajax-countries.jade"
+			],
+			[
+				"signup",
+				"views/exercises/node/signup.jade"
+			],
+			[
+				"magel",
+				"views/exercises/node/magellan.jade"
+			],
+			[
+				"node/signup",
+				"views/exercises/node/signup.jade"
+			],
+			[
+				"static",
+				"views/exercises/node/static-file-server.jade"
+			],
+			[
+				"csv-to",
+				"views/exercises/node/csv-to-json.jade"
+			],
+			[
+				"function-sho",
+				"views/exercises/js/functional-short-answer.jade"
+			],
+			[
+				"gold",
+				"views/exercises/js/gold-rush.jade"
+			],
+			[
+				"mod",
+				"views/exercises/html/modularity3.jade"
+			],
+			[
+				"modul",
+				"views/exercises/html/modularity2.jade"
+			],
+			[
+				"modularity",
+				"views/exercises/html/modularity1.jade"
+			],
+			[
+				"making",
+				"views/exercises/html/making-it-real.jade"
+			],
+			[
+				"program",
+				"views/program.jade"
+			],
+			[
+				"passport.co",
+				"src/config/passport.coffee"
+			],
+			[
+				"library-demo",
+				"views/exercises/project/library-demo.jade"
+			],
+			[
+				"test-drive",
+				"views/exercises/js/test-drive-101.jade"
+			],
+			[
+				"loop",
+				"views/exercises/problem-set/loop-practice3.jade"
+			],
+			[
+				"defaults",
+				"public/css/src/defaults.styl"
+			],
+			[
+				"main.styl",
+				"public/css/src/main.styl"
+			],
+			[
+				"exerciescomme",
+				"views/includes/exercise-comments.jade"
+			],
+			[
+				"library",
+				"views/exercises/project/library-demo.jade"
+			],
+			[
+				"handlebars-st",
+				"views/exercises/js/handlebars-store.jade"
+			],
+			[
+				"library-",
+				"views/exercises/project/library-demo.jade"
+			],
+			[
+				"call-and",
+				"views/exercises/js/call-and-apply.jade"
+			],
+			[
+				"handlebars-e",
+				"views/exercises/js/handlebars-search.jade"
+			],
+			[
+				"handlebars",
+				"views/exercises/js/handlebars.jade"
+			],
+			[
+				"handlebars-store",
+				"views/exercises/js/handlebars-store.jade"
+			],
+			[
+				"chatroom",
+				"views/exercises/node/chatroom.jade"
+			],
+			[
+				"exercise/in",
+				"views/exercises/index.jade"
+			],
+			[
+				"cakef",
+				"Cakefile"
+			],
+			[
+				"events.js",
+				"node_modules/watchr/node_modules/bal-util/out/lib/events.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cint",
+				"~/projects/workspaces/cint.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
