@@ -300,7 +300,11 @@
 	},
 
 	{ "keys": ["ctrl+i"], "command": "indent_and_braces" },
-	{ "keys": ["j"], "command": "delete_matching_brackets" },
+	{
+		"keys": ["j"],
+		"command": "delete_matching_brackets",
+		"context": [{ "key": "setting.command_mode" }]
+	}
 
 	// not sure why this isn't working
 	// {

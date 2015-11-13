@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -19,7 +20,7 @@
 		"FindResultsApplyChanges",
 		"Git",
 		"GitGutter",
-		"Handlebars",
+		"Gitignore",
 		"Indent and braces",
 		"Jade",
 		"JSHint Gutter",

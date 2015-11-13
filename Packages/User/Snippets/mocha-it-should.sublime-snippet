@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 it('should ${1:do something}', function() {
-	${2:onething}.should.equal(${3:true});
-});
+	${2:onething}.should.equal(${3:true})
+})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>it</tabTrigger>

@@ -2,9 +2,9 @@
 	<content><![CDATA[
 describe('${1:module}', function() {
 	it('should ${2:do something}', function() {
-		${3:onething}.should.equal(${4:true});
-	});
-});
+		${3:onething}.should.equal(${4:true})
+	})
+})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>describe</tabTrigger>
