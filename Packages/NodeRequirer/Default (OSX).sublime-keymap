@@ -1,0 +1,14 @@
+[
+  {
+    "keys": ["ctrl+shift+i"],
+    "command": "simple_require"
+  },
+  {
+    "keys": ["ctrl+shift+e"],
+    "command": "export_require"
+  },
+  {
+    "keys": ["ctrl+shift+o"],
+    "command": "require_from_word"
+  }
+]

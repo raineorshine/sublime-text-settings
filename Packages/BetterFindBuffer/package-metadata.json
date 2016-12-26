@@ -1,0 +1,1 @@
+{"sublime_text": ">=3000", "platforms": ["*"], "dependencies": [], "version": "1.0.0", "description": "Adds a couple of missing features to SublimeText 3 Find Results buffer", "url": "https://github.com/aziz/BetterFindBuffer"}

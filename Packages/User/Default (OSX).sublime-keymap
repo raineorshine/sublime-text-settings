@@ -304,6 +304,16 @@
 		"keys": ["j"],
 		"command": "delete_matching_brackets",
 		"context": [{ "key": "setting.command_mode" }]
+	},
+
+	{
+		"keys": ["super+ctrl+e"],
+		"command": "swap_line_up"
+	},
+
+	{
+		"keys": ["super+ctrl+n"],
+		"command": "swap_line_down"
 	}
 
 	// not sure why this isn't working

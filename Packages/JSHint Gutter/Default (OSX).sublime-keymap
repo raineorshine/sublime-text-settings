@@ -1,5 +1,5 @@
 [{
-  "keys": ["super+shift+h"],
+  "keys": ["super+shift+j"],
   "command": "jshint"
 }, {
   "keys": ["super+alt+j", "p"],

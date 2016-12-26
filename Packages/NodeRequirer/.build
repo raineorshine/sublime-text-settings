@@ -1,0 +1,13 @@
+{
+	"automatic_order": true,
+	"iterations": 1,
+	"mods_load_order":
+	[
+		"src/utils.py",
+		"src/node_bridge.py",
+		"src/modules.py",
+		"src/RequireSnippet.py",
+		"src/ModuleLoader.py",
+		"NodeRequirer.py"
+	]
+}
