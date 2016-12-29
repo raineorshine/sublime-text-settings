@@ -6,9 +6,7 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"Better CoffeeScript",
 		"BetterFindBuffer",
-		"Bootstrap 3 Jade Snippets",
 		"BracketHighlighter",
 		"BufferScroll",
 		"Clickable URLs",
@@ -16,7 +14,6 @@
 		"DashDoc",
 		"EditorConfig",
 		"Elm Language Support",
-		"Emmet",
 		"Enhanced Clojure",
 		"ES6-Toolkit",
 		"Ethereum",
