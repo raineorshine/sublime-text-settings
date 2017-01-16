@@ -28,6 +28,12 @@
 	],
 	"index_files": true,
 	"index_workers": 0,
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_tags": false,
 	"revert_font_size": 12,
 	"soda_classic_tabs": true,
 	"tab_size": 2,
@@ -35,5 +41,6 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"highlight_line": true
 }

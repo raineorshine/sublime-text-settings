@@ -82,7 +82,7 @@ class TerminalSelector():
                 buf = create_unicode_buffer(512)
                 if windll.kernel32.GetShortPathNameW(sublime_terminal_path, buf, len(buf)):
                     sublime_terminal_path = buf.value
-                os.putenv('sublime_terminal_path', sublime_terminal_path.replace(' ', '` '))
+                os.environ['sublime_terminal_path'] = sublime_terminal_path.replace(' ', '` ')
             else :
                 default = os.environ['SYSTEMROOT'] + '\\System32\\cmd.exe'
 
@@ -136,12 +136,22 @@ class TerminalCommand():
                 parameters[k] = v.replace('%CWD%', dir_)
             args = [TerminalSelector.get()]
             args.extend(parameters)
+
             encoding = locale.getpreferredencoding(do_setlocale=True)
             if sys.version_info >= (3,):
                 cwd = dir_
             else:
                 cwd = dir_.encode(encoding)
-            subprocess.Popen(args, cwd=cwd)
+
+            env_setting = get_setting('env', {})
+            env = os.environ.copy()
+            for k in env_setting:
+                if env_setting[k] is None:
+                    env.pop(k, None)
+                else:
+                    env[k] = env_setting[k]
+
+            subprocess.Popen(args, cwd=cwd, env=env)
 
         except (OSError) as exception:
             print(str(exception))

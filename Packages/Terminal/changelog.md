@@ -1,4 +1,23 @@
 # changelog
+## 1.16.2
+
+ - Added fallback for env setting. Fixes #154
+
+## 1.16.1
+
+ - Fixed Windows Powershell support. Fixes #151
+
+## 1.16.0
+
+ - Added support for environment customization via @peterfyj in #150
+
+## 1.15.1
+
+ - Updated examples in Terminal.sublime-settings to be less confusing via @rogeriopradoj in #139
+
+## 1.15.0
+
+ - Fixed iTerm2-v3 script opening multiple tabs if never opened before via @ctf0 in #131
 
 ## 1.14.0
 
