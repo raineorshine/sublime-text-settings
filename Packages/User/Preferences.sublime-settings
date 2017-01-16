@@ -7,7 +7,7 @@
 		"build/*"
 	],
 	"bs_sintax": "plain text",
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/Color Scheme - Raine's Monokai.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -17,6 +17,7 @@
 		"node_modules"
 	],
 	"font_size": 12,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"SideBarEnhancements"
@@ -41,6 +42,5 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
-	"word_wrap": true,
-	"highlight_line": true
+	"word_wrap": true
 }
