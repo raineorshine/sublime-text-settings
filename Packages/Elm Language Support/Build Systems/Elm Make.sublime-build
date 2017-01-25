@@ -10,9 +10,9 @@
         "--yes"
     ],
     "working_dir": "$project_path",
-    "file_regex": "(?i)^={4} \\w+ in (.+?):(\\d+):(\\d+): ={4}\\n((?:.|\\n)*?)\\n?-{4}$",
-    "error_format": "==== $type in $file:$line:$column: ====\n$message\n----",
-    "info_format": "=== $info ===",
+    "file_regex": "^\\-\\- \\w+: (?=.+ \\- (.+?):(\\d+):(\\d+))(.+) \\- .*$",
+    "error_format": "-- $type: $tag - $file:$line:$column\n$message\n",
+    "info_format": ":: $info\n",
     "syntax": "Packages/Elm Language Support/Syntaxes/Elm Compile Messages.hidden-tmLanguage",
     "color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
     "null_device": "/dev/null",

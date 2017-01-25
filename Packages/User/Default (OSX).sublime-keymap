@@ -1,3 +1,7 @@
+// show commands entered
+//   Open console (ctrl+~)
+//   sublime.log_commands(True)
+
 [
 	// movement in command mode
 	// up

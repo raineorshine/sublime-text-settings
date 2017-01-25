@@ -66,7 +66,7 @@ class ElmMakeCommand(default_exec.ExecCommand):
             info_str = result_str.strip()
             return [self.info_format.substitute(info=info_str)] if info_str else []
 
-    def format_error(shelf, type, file, region, overview, details, **kwargs):
+    def format_error(shelf, type, file, region, tag, overview, details, **kwargs):
         if type == 'warning' and not shelf.warnings:
             return None
         line = region['start']['line']

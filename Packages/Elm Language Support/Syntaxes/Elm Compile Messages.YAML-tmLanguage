@@ -6,10 +6,10 @@ fileTypes: []
 uuid: 0e1a8891-7cc0-4991-8018-252d6f591f8f
 
 patterns:
-- comment: === Unparsed Compile Message ===
+- comment: "|> Unparsed Compile Message"
   name: comment.line.heading.3.elm-build-output
-  begin: '^(={3}) '
-  end: ' \1$'
+  begin: '^(::) '
+  end: '^\n$'
   patterns:
   - comment: elm-lang/core OR build\index.html
     name: markup.underline.link.elm-build-output
@@ -17,29 +17,32 @@ patterns:
   - comment: Successfully generated
     name: constant.language.boolean.true.elm-build-output
     match: (?i)\bsuccess\w+
-- comment: ==== MediaWiki-Formatted ====\nCompile Message\n----
+- comment: -- TAG - file:line:column\nOverview\nDetail\n
   name: meta.report.elm-build-output
   contentName: string.unquoted.elm-build-output
   begin: |-
-    (?xi)          # Minimally modified `file_regex` from `Elm Make.sublime-build`
-      ^={4}[ ]     # Leading delimiter
+    (?x)           # Minimally modified `file_regex` from `Elm Make.sublime-build`
+      ^\-\-[ ]     # Leading delimiter
       ((error)     # \2: error
       |(warning)   # \3: warning
       |\w+         # \1: any $type
-      )[ ]in[ ]    # separator
-      (.+?):       # \4: $file
-      (\d+):       # \5: $line
-      (\d+):       # \6: $column
-      [ ]={4}\n    # Trailing delimiter
+      )[:][ ]      # separator
+      (.+)         # \4: tag
+      [ ][-][ ]    # separator
+      (.+?):       # \5: $file
+      (\d+):       # \6: $line
+      (\d+)        # \7: $column
+      \n$          # End
   beginCaptures:
     '0': {name: markup.heading.4.elm-build-output}
     '1': {name: support.constant.type.elm-build-output}
     '2': {name: invalid.illegal.error.elm-build-output}
     '3': {name: invalid.deprecated.warning.elm-build-output}
-    '4': {name: markup.underline.link.elm-build-output}
-    '5': {name: constant.numeric.elm-build-output}
+    '4': {name: support.constant.type.elm-build-output}
+    '5': {name: markup.underline.link.elm-build-output}
     '6': {name: constant.numeric.elm-build-output}
-  end: ^-{4}$
+    '7': {name: constant.numeric.elm-build-output}
+  end: ^\n$
   endCaptures:
     '0': {name: meta.separator.elm-build-output}
   patterns:

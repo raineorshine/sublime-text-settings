@@ -10,11 +10,11 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>^(={3}) </string>
+			<string>^(::) </string>
 			<key>comment</key>
-			<string>=== Unparsed Compile Message ===</string>
+			<string>|&gt; Unparsed Compile Message</string>
 			<key>end</key>
-			<string> \1$</string>
+			<string>^\n$</string>
 			<key>name</key>
 			<string>comment.line.heading.3.elm-build-output</string>
 			<key>patterns</key>
@@ -39,16 +39,18 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(?xi)          # Minimally modified `file_regex` from `Elm Make.sublime-build`
-  ^={4}[ ]     # Leading delimiter
+			<string>(?x)           # Minimally modified `file_regex` from `Elm Make.sublime-build`
+  ^\-\-[ ]     # Leading delimiter
   ((error)     # \2: error
   |(warning)   # \3: warning
   |\w+         # \1: any $type
-  )[ ]in[ ]    # separator
-  (.+?):       # \4: $file
-  (\d+):       # \5: $line
-  (\d+):       # \6: $column
-  [ ]={4}\n    # Trailing delimiter</string>
+  )[:][ ]      # separator
+  (.+)         # \4: tag
+  [ ][-][ ]    # separator
+  (.+?):       # \5: $file
+  (\d+):       # \6: $line
+  (\d+)        # \7: $column
+  \n$          # End</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
@@ -74,25 +76,30 @@
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>markup.underline.link.elm-build-output</string>
+					<string>support.constant.type.elm-build-output</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>constant.numeric.elm-build-output</string>
+					<string>markup.underline.link.elm-build-output</string>
 				</dict>
 				<key>6</key>
 				<dict>
 					<key>name</key>
 					<string>constant.numeric.elm-build-output</string>
 				</dict>
+				<key>7</key>
+				<dict>
+					<key>name</key>
+					<string>constant.numeric.elm-build-output</string>
+				</dict>
 			</dict>
 			<key>comment</key>
-			<string>==== MediaWiki-Formatted ====\nCompile Message\n----</string>
+			<string>-- TAG - file:line:column\nOverview\nDetail\n</string>
 			<key>contentName</key>
 			<string>string.unquoted.elm-build-output</string>
 			<key>end</key>
-			<string>^-{4}$</string>
+			<string>^\n$</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>0</key>
