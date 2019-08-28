@@ -1,7 +1,7 @@
 {
+	"auto_complete": false,
 	"binary_file_patterns":
 	[
-		"node_modules/*",
 		"typings/*",
 		"app/*",
 		"build/*"
@@ -16,16 +16,17 @@
 		"CVS",
 		"node_modules"
 	],
-	"font_size": 12,
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"TabNine"
 	],
 	"index_exclude_patterns":
 	[
 		"*.log",
-		"node_modules/*"
+		"./node_modules/*"
 	],
 	"index_files": true,
 	"index_workers": 0,
@@ -35,7 +36,7 @@
 	"match_brackets_content": false,
 	"match_brackets_square": false,
 	"match_tags": false,
-	"revert_font_size": 12,
+	"revert_font_size": 10,
 	"soda_classic_tabs": true,
 	"tab_size": 2,
 	"theme": "Soda Dark 3.sublime-theme",

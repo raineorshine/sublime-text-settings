@@ -4,7 +4,7 @@ Fenced Code Extension for Python Markdown
 
 This extension adds Fenced Code Blocks to Python-Markdown.
 
-See <https://pythonhosted.org/Markdown/extensions/fenced_code_blocks.html>
+See <https://Python-Markdown.github.io/extensions/fenced_code_blocks>
 for documentation.
 
 Original code Copyright 2007-2008 [Waylan Limberg](http://achinghead.com/).
@@ -37,7 +37,7 @@ class FencedCodeExtension(Extension):
 class FencedBlockPreprocessor(Preprocessor):
     FENCED_BLOCK_RE = re.compile(r'''
 (?P<fence>^(?:~{3,}|`{3,}))[ ]*         # Opening ``` or ~~~
-(\{?\.?(?P<lang>[a-zA-Z0-9_+-]*))?[ ]*  # Optional {, and lang
+(\{?\.?(?P<lang>[\w#.+-]*))?[ ]*        # Optional {, and lang
 # Optional highlight lines, single- or double-quote-delimited
 (hl_lines=(?P<quot>"|')(?P<hl_lines>.*?)(?P=quot))?[ ]*
 }?[ ]*\n                                # Optional closing }

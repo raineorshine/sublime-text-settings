@@ -8,7 +8,10 @@ The plugin uses an IO wrapper around the TypeScript language services to provide
 Requirements
 --------------
 
-The plug-in uses **Node.js** to run the TypeScript server.  The plug-in looks for node in the PATH environment variable (which is inherited from Sublime).  If the 'node\_path' setting is present, this will override the PATH environment variable and the plug-in will use the value of the 'node\_path' setting as the node executable to run.  See more information in the tips.
+The plug-in uses **Node.js** to run the TypeScript server.  The plug-in looks for node in the PATH environment variable (which is inherited from Sublime).
+
+If the `node_path` setting is present, this will override the PATH environment variable and the plug-in will use the value of the `node_path` setting as the node executable to run.
+See more information in [our Tips and Known Issues](https://github.com/Microsoft/TypeScript-Sublime-Plugin/wiki/Tips-and-Known-Issues) wiki page.
 
 Note: Using different versions of TypeScript
 --------------
@@ -16,7 +19,7 @@ This plugin can be configured to load an alternate version of TypeScript.
 This is typically useful for trying out nightly builds, or prototyping with custom builds.
 To do that, update the `Settings - User` file with the following:
 
-```json
+```json5
 "typescript_tsdk": "<path to your folder>/node_modules/typescript/lib"
 ```
 
@@ -25,15 +28,19 @@ Installation
 If using [Package Control](https://packagecontrol.io/) for Sublime Text, simply install the `TypeScript` package.
 
 Alternatively, you can clone the repo directly into your Sublime plugin folder.  For example, for Sublime Text 3 on a Mac this would look something like:
+
 ```
 cd ~/"Library/Application Support/Sublime Text 3/Packages"
 git clone --depth 1 https://github.com/Microsoft/TypeScript-Sublime-Plugin.git TypeScript
 ```
+
 And on Windows:
+
 ```
 cd "%APPDATA%\Sublime Text 3\Packages"
 git clone --depth 1 https://github.com/Microsoft/TypeScript-Sublime-Plugin.git TypeScript
 ```
+
 (`--depth 1` downloads only the current version to reduce the clone size.)
 Note if you are using the portable version of Sublime Text, the location will be different.  (See http://docs.sublimetext.info/en/latest/basic_concepts.html#the-data-directory for more info).
 
@@ -94,7 +101,7 @@ The plugin supports two kinds of projects:
 
 #### Inferred project
 
-For loose TS files opened in Sublime, the plugin will create an inferred project and include every files that the current file refers to.
+For loose TS files opened in Sublime, the plugin will create an inferred project and include every file that the current file refers to.
 
 #### Configured project
 
@@ -120,7 +127,7 @@ Screenshots
 
 - Rename
 
-![](https://raw.githubusercontent.com/Microsoft/TypeScript-Sublime-Plugin/master/screenshots/build_tsconfig.gif)
+![](https://raw.githubusercontent.com/Microsoft/TypeScript-Sublime-Plugin/master/screenshots/rename.gif)
 
 - Find all references
 

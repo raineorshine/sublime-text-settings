@@ -1,0 +1,6 @@
+binaries/*
+!binaries/2.1.5
+
+registration_key
+sig
+auth

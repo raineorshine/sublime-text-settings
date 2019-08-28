@@ -38,6 +38,23 @@ class ServiceProxy:
         if self.__worker_comm.started():
             self.__worker_comm.postCmd(json_str)
 
+        self.set_inferred_project_compiler_options()
+
+    def set_inferred_project_compiler_options(self):
+        """ Add full type support for compilers running in file scope mode """
+        compiler_options = {
+            "target": "ESNext", # enable all es-next features
+            "allowJs": True,    # enable javascript support
+            "jsx": "Preserve",  # enable jsx support
+            "noEmit": True      # do not emit outputs
+        }
+        args = { "options": compiler_options }
+        req_dict = self.create_req_dict("compilerOptionsForInferredProjects", args)
+        json_str = json_helpers.encode(req_dict)
+        self.__comm.postCmd(json_str)
+        if self.__worker_comm.started():
+            self.__worker_comm.postCmd(json_str)
+
     def change(self, path, begin_location=Location(1, 1), end_location=Location(1, 1), insertString=""):
         args = {
             "file": path,
@@ -92,6 +109,13 @@ class ServiceProxy:
         response_dict = self.__comm.sendCmdSync(json_str, req_dict["seq"])
         return response_dict
 
+    def type_definition(self, path, location=Location(1, 1)):
+        args = {"file": path, "line": location.line, "offset": location.offset}
+        req_dict = self.create_req_dict("typeDefinition", args)
+        json_str = json_helpers.encode(req_dict)
+        response_dict = self.__comm.sendCmdSync(json_str, req_dict["seq"])
+        return response_dict
+
     def format(self, path, begin_location=Location(1, 1), end_location=Location(1, 1)):
         args = {
             "file": path,
@@ -110,6 +134,22 @@ class ServiceProxy:
     def format_on_key(self, path, location=Location(1, 1), key=""):
         args = {"file": path, "line": location.line, "offset": location.offset, "key": key}
         req_dict = self.create_req_dict("formatonkey", args)
+        json_str = json_helpers.encode(req_dict)
+        response_dict = self.__comm.sendCmdSync(json_str, req_dict["seq"])
+        if self.__worker_comm.started():
+            self.__worker_comm.sendCmdSync(json_str, req_dict["seq"])
+        return response_dict
+
+    def organize_imports(self, path):
+        args = {
+            "scope": {
+                "type": "file",
+                "args": {
+                    "file": path
+                }
+            },
+        }
+        req_dict = self.create_req_dict("organizeImports", args)
         json_str = json_helpers.encode(req_dict)
         response_dict = self.__comm.sendCmdSync(json_str, req_dict["seq"])
         if self.__worker_comm.started():
@@ -187,6 +227,35 @@ class ServiceProxy:
             self.__worker_comm.sendCmdSync(json_str, req_dict["seq"])
         return response_dict
 
+    def get_applicable_refactors_async(self, path, start_loc, end_loc, on_completed):
+        args = {
+            "file": path,
+            "startLine": start_loc.line,
+            "startOffset": start_loc.offset,
+            "endLine": end_loc.line,
+            "endOffset": end_loc.offset,
+        }
+        req_dict = self.create_req_dict("getApplicableRefactors", args)
+        json_str = json_helpers.encode(req_dict)
+        self.__comm.sendCmdAsync(json_str, on_completed, req_dict["seq"])
+
+    def get_edits_for_refactor_async(self, path, refactor_name, action_name, start_loc, end_loc, on_completed):
+        args = {
+            "file": path,
+            "startLine": start_loc.line,
+            "startOffset": start_loc.offset,
+            "endLine": end_loc.line,
+            "endOffset": end_loc.offset,
+            "refactor": refactor_name,
+            "action": action_name,
+        }
+        req_dict = self.create_req_dict("getEditsForRefactor", args)
+        json_str = json_helpers.encode(req_dict)
+        response_dict = self.__comm.sendCmdAsync(json_str, on_completed, req_dict["seq"])
+        #on_completed(response_dict)
+        #return response_dict
+
+
     def request_get_err(self, delay=0, pathList=[]):
         args = {"files": pathList, "delay": delay}
         req_dict = self.create_req_dict("geterr", args)
@@ -225,13 +294,23 @@ class ServiceProxy:
                 req_dict["seq"]
             )
 
-    def get_event(self):
-        event_json_str = self.__comm.getEvent()
-        return json_helpers.decode(event_json_str) if event_json_str is not None else None
-
-    def get_event_from_worker(self):
-        event_json_str = self.__worker_comm.getEvent()
-        return json_helpers.decode(event_json_str) if event_json_str is not None else None
+    def quick_info_full(self, path, location=Location(1, 1), on_completed=None):
+        args = {"file": path, "line": location.line, "offset": location.offset}
+        req_dict = self.create_req_dict("quickinfo-full", args)
+        json_str = json_helpers.encode(req_dict)
+        callback = on_completed or (lambda: None)
+        if not IS_ST2:
+            self.__comm.sendCmdAsync(
+                json_str,
+                callback,
+                req_dict["seq"]
+            )
+        else:
+            self.__comm.sendCmd(
+                json_str,
+                callback,
+                req_dict["seq"]
+            )
 
     def save_to(self, path, alternatePath):
         args = {"file": path, "tmpfile": alternatePath}

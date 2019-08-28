@@ -22,7 +22,6 @@ class TypescriptRenameCommand(TypeScriptBaseTextCommand):
             self.view.set_status('typescript_error', info['localizedErrorMessage'])
             return
 
-        display_name = info['fullDisplayName']
         outer_locations = body['locs']
 
         def on_done(new_name):
@@ -32,7 +31,7 @@ class TypescriptRenameCommand(TypeScriptBaseTextCommand):
 
         if len(outer_locations) > 0:
             sublime.active_window().show_input_panel(
-                'New name for {0}: '.format(display_name),
+                'New name: ',
                 info['displayName'],  # initial text
                 on_done,
                 None,                 # on_change
@@ -64,7 +63,7 @@ class TypescriptFinishRenameCommand(TypeScriptBaseTextCommand):
                     rename_view.run_command('typescript_delayed_rename_file',
                                            {"locs_name": {"locs": inner_locations, "name": new_name}})
                 else:
-                    for inner_location in inner_locations:
+                    for inner_location in inner_locations[::-1]:
                         start_line, start_offset = extract_line_offset(inner_location["start"])
                         end_line, end_offset = extract_line_offset(inner_location["end"])
                         apply_edit(text, self.view, start_line, start_offset, end_line,

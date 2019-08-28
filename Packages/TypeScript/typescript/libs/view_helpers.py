@@ -41,7 +41,7 @@ def get_info(view, open_if_not_cached=True):
     """Find the file info on the server that matches the given view"""
     if not get_language_service_enabled():
         return
-    
+
     if not cli.initialized:
         cli.initialize()
 
@@ -95,42 +95,55 @@ def active_window():
     """Return currently active window"""
     return sublime.active_window()
 
+def selector_matches_whole_file(view, selector):
+    regions = view.find_by_selector(selector)
+    return len(regions) == 1 and regions[0].size() == view.size()
 
 def is_typescript(view):
     """Test if the outer syntactic scope is 'source.ts' or 'source.tsx' """
     if not view.file_name():
         return False
 
-    try:
-        location = view.sel()[0].begin()
-    except:
-        return False
+    # Check if the *entire file* is one contiguous TypeScript/JavaScript region.
+    #
+    # Why am I writing this note? We used to test for the *current selection*.
+    # This meant that as soon as a user clicked into an html `<script>` tag,
+    # (whose scope was something like source.js), then this function
+    # would suddenly return True. The entire file would then be
+    # treated as a `.ts` or `.js` file and the user would be given red squiggles!
+    # Clearly we shouldn't try to parse a `.html` file as TypeScript.
+    is_ts_file = selector_matches_whole_file(view, "source.ts, source.tsx")
+    is_js_file = cli.enable_language_service_for_js \
+        and selector_matches_whole_file(view, "source.js, source.jsx")
 
-    return (view.match_selector(location, 'source.ts') or
-            view.match_selector(location, 'source.tsx'))
-
+    return is_ts_file or is_js_file
 
 def is_special_view(view):
     """Determine if the current view is a special view.
 
     Special views are mostly referring to panels. They are different from normal views
-    in that they cannot be the active_view of their windows, therefore their ids 
+    in that they cannot be the active_view of their windows, therefore their ids
     shouldn't be equal to the current view id.
     """
-    return view is not None and view.window() and view.id() != view.window().active_view().id()
+    window = view.window()
+    active_view = window.active_view() if window else None
+    return view and active_view and window and view.id() != active_view.id()
 
 
 def get_location_from_view(view):
-    """Returns the Location tuple of the beginning of the first selected region in the view"""
+    """Returns a Location representing the beginning of the first selected region in the view"""
     region = view.sel()[0]
     return get_location_from_region(view, region)
-
 
 def get_location_from_region(view, region):
     """Returns the Location tuple of the beginning of the given region"""
     position = region.begin()
     return get_location_from_position(view, position)
 
+def get_start_and_end_from_view(view):
+    """Returns a tuple of Location objects representing the (start, end) of a region."""
+    region = view.sel()[0]
+    return map(lambda p: get_location_from_position(view, p), (region.begin(), region.end()))
 
 def get_location_from_position(view, position):
     """Returns the LineOffset object of the given text position"""
@@ -265,7 +278,7 @@ def reload_required(view):
 def check_update_view(view):
     """Check if the buffer in the view needs to be reloaded
 
-    If we have changes to the view not accounted for by change messages, 
+    If we have changes to the view not accounted for by change messages,
     send the whole buffer through a temporary file
     """
     if is_typescript(view):
@@ -276,7 +289,7 @@ def check_update_view(view):
 
 def send_replace_changes_for_regions(view, regions, insert_string):
     """
-    Given a list of regions and a (possibly zero-length) string to insert, 
+    Given a list of regions and a (possibly zero-length) string to insert,
     send the appropriate change information to the server.
     """
     if not is_typescript(view):

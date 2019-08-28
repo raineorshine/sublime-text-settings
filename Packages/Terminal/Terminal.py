@@ -26,7 +26,7 @@ def get_setting(key, default=None):
     os_specific_settings = {}
     if os.name == 'nt':
         os_specific_settings = sublime.load_settings('Terminal (Windows).sublime-settings')
-    elif os.name == 'darwin':
+    elif sys.platform == 'darwin':
         os_specific_settings = sublime.load_settings('Terminal (OSX).sublime-settings')
     else:
         os_specific_settings = sublime.load_settings('Terminal (Linux).sublime-settings')
@@ -37,9 +37,9 @@ class TerminalSelector():
     default = None
 
     @staticmethod
-    def get():
+    def get(terminal_key):
         package_dir = os.path.join(sublime.packages_path(), installed_dir)
-        terminal = get_setting('terminal')
+        terminal = get_setting(terminal_key)
         if terminal:
             dir, executable = os.path.split(terminal)
             if not dir:
@@ -92,19 +92,25 @@ class TerminalSelector():
                 os.chmod(default, 0o755)
 
         else:
-            ps = 'ps -eo comm | grep -E "gnome-session|ksmserver|' + \
-                'xfce4-session|lxsession|mate-panel|cinnamon-sessio" | grep -v grep'
+            ps = 'ps -eo comm,args | grep -E "^(gnome-session|ksmserver|' + \
+                'xfce4-session|lxsession|mate-panel|cinnamon-sessio)" | grep -v grep'
             wm = [x.replace("\n", '') for x in os.popen(ps)]
             if wm:
-                if 'gnome-session' in wm[0] or wm[0] == 'cinnamon-sessio':
-                    default = 'gnome-terminal'
-                elif wm[0] == 'xfce4-session':
+                # elementary OS: `/usr/lib/gnome-session/gnome-session-binary --session=pantheon`
+                # Gnome: `gnome-session` or `gnome-session-binary`
+                # Linux Mint Cinnamon: `cinnamon-session --session cinnamon`
+                if wm[0].startswith('gnome-session') or wm[0].startswith('cinnamon-sessio'):
+                    if 'pantheon' in wm[0]:
+                        default = 'pantheon-terminal'
+                    else:
+                        default = 'gnome-terminal'
+                elif wm[0].startswith('xfce4-session'):
                     default = 'xfce4-terminal'
-                elif wm[0] == 'ksmserver':
+                elif wm[0].startswith('ksmserver'):
                     default = 'konsole'
-                elif wm[0] == 'lxsession':
+                elif wm[0].startswith('lxsession'):
                     default = 'lxterminal'
-                elif wm[0] == 'mate-panel':
+                elif wm[0].startswith('mate-panel'):
                     default = 'mate-terminal'
             if not default:
                 default = 'xterm'
@@ -127,14 +133,14 @@ class TerminalCommand():
             sublime.error_message('Terminal: No place to open terminal to')
             return False
 
-    def run_terminal(self, dir_, parameters):
+    def run_terminal(self, dir_, terminal, parameters):
         try:
             if not dir_:
                 raise NotFoundError('The file open in the selected view has ' +
                     'not yet been saved')
             for k, v in enumerate(parameters):
                 parameters[k] = v.replace('%CWD%', dir_)
-            args = [TerminalSelector.get()]
+            args = [TerminalSelector.get(terminal)]
             args.extend(parameters)
 
             encoding = locale.getpreferredencoding(do_setlocale=True)
@@ -143,6 +149,7 @@ class TerminalCommand():
             else:
                 cwd = dir_.encode(encoding)
 
+            # Copy over environment settings onto parent environment
             env_setting = get_setting('env', {})
             env = os.environ.copy()
             for k in env_setting:
@@ -151,6 +158,17 @@ class TerminalCommand():
                 else:
                     env[k] = env_setting[k]
 
+            # Normalize environment settings for ST2
+            # https://github.com/wbond/sublime_terminal/issues/154
+            # http://stackoverflow.com/a/4987414
+            for k in env:
+                if not isinstance(env[k], str):
+                    if isinstance(env[k], unicode):
+                        env[k] = env[k].encode('utf8')
+                    else:
+                        print('Unsupported environment variable type. Expected "str" or "unicode"', env[k])
+
+            # Run our process
             subprocess.Popen(args, cwd=cwd, env=env)
 
         except (OSError) as exception:
@@ -162,10 +180,13 @@ class TerminalCommand():
 
 
 class OpenTerminalCommand(sublime_plugin.WindowCommand, TerminalCommand):
-    def run(self, paths=[], parameters=None):
+    def run(self, paths=[], parameters=None, terminal=None):
         path = self.get_path(paths)
         if not path:
             return
+
+        if terminal is None:
+            terminal = 'terminal'
 
         if parameters is None:
             parameters = get_setting('parameters', [])
@@ -173,7 +194,7 @@ class OpenTerminalCommand(sublime_plugin.WindowCommand, TerminalCommand):
         if os.path.isfile(path):
             path = os.path.dirname(path)
 
-        self.run_terminal(path, parameters)
+        self.run_terminal(path, terminal, parameters)
 
 
 class OpenTerminalProjectFolderCommand(sublime_plugin.WindowCommand,

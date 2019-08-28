@@ -24,6 +24,7 @@ lang_map = {
     'javascript': (('javascript', 'js'), ('JavaScript/JavaScript', 'JavaScriptNext - ES6 Syntax/JavaScriptNext')),
     'json': (('json',), ('JavaScript/JSON', 'JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext)')),
     'jsp': (('jsp',), ('Java/Java Server Pages (JSP)',)),
+    'less': (('less',), ('LESS/LESS', 'LessImproved/LESS')),
     'lisp': (('common-lisp', 'cl', 'lisp', 'emacs', 'elisp'), ('Lisp/Lisp',)),
     'lua': (('lua',), ('Lua/Lua',)),
     'markdown': (('markdown', 'md'), ('Markdown/Markdown',)),
@@ -44,10 +45,14 @@ lang_map = {
     'railsjs': (('js+erb', 'javascript+erb', 'js+ruby', 'javascript+ruby'), ('Rails/JavaScript (Rails)',)),
     'rst': (('rst', 'rest', 'restructuredtext'), ('RestructuredText/reStructuredText',)),
     'ruby': (('rb', 'ruby'), ('Ruby/Ruby',)),
+    'rust': (('rs', 'rust'), ('Rust/Rust',)),
     'scala': (('scala',), ('Scala/Scala',)),
     'tex': (('tex', 'latex'), ('LaTeX/LaTeX',)),
     'text': (('text',), ('Text/Plain text',)),
     'textile': (('textile',), ('Textile/Textile',)),
+    'typescript': (('typescript', 'ts'), ('TypeScript/TypeScript', 'TypeScript Syntax/TypeScript')),
     'xml': (('xml',), ('XML/XML',)),
-    'yaml': (('yaml',), ('YAML/YAML',))
+    'yaml': (('yaml',), ('YAML/YAML',)),
+    'vhdl': (('vhdl',), ('VHDL/Syntaxes/VHDL', 'HDLProject/sublime-vhdl/Syntaxes/VHDL')),
+    'verilog': (('verilog',), ('Verilog/Verilog', 'HDLProject/sublime-verilog/Verilog'))
 }

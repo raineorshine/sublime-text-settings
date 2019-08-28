@@ -258,7 +258,13 @@ class HtmlBlockPreprocessor(Preprocessor):
             else:
                 items.append(block)
 
-                right_tag, data_index = self._get_right_tag(left_tag, 0, block)
+                # Need to evaluate all items so we can calculate relative to the left index.
+                right_tag, data_index = self._get_right_tag(left_tag, left_index, ''.join(items))
+                # Adjust data_index: relative to items -> relative to last block
+                prev_block_length = 0
+                for item in items[:-1]:
+                    prev_block_length += len(item)
+                data_index -= prev_block_length
 
                 if self._equal_tags(left_tag, right_tag):
                     # if find closing tag
@@ -340,6 +346,9 @@ class ReferencePreprocessor(Preprocessor):
                         lines.pop(0)
                         t = tm.group(2) or tm.group(3) or tm.group(4)
                 self.markdown.references[id] = (link, t)
+                # Preserve the line to prevent raw HTML indexing issue.
+                # https://github.com/Python-Markdown/markdown/issues/584
+                new_text.append('')
             else:
                 new_text.append(line)
 

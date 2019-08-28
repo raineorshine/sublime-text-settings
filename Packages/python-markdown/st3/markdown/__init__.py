@@ -10,7 +10,7 @@ called from the command line.
     import markdown
     html = markdown.markdown(your_text_string)
 
-See <https://pythonhosted.org/Markdown/> for more
+See <https://Python-Markdown.github.io/> for more
 information and instructions on how to extend the functionality of
 Python Markdown.  Read that before you try modifying this file.
 
@@ -74,9 +74,6 @@ class Markdown(object):
         'xhtml1': to_xhtml_string,
         'xhtml5': to_xhtml_string,
     }
-
-    ESCAPED_CHARS = ['\\', '`', '*', '_', '{', '}', '[', ']',
-                     '(', ')', '>', '#', '+', '-', '.', '!']
 
     def __init__(self, *args, **kwargs):
         """
@@ -146,6 +143,9 @@ class Markdown(object):
             warnings.warn('The "html_replacement_text" keyword is '
                           'deprecated along with "safe_mode".',
                           DeprecationWarning)
+
+        self.ESCAPED_CHARS = ['\\', '`', '*', '_', '{', '}', '[', ']',
+                              '(', ')', '>', '#', '+', '-', '.', '!']
 
         self.registeredExtensions = []
         self.docType = ""

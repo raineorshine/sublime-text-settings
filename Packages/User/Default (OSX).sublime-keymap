@@ -303,7 +303,10 @@
 		}]
 	},
 
-	{ "keys": ["ctrl+i"], "command": "indent_and_braces" },
+	{
+		"keys": ["super+i"],
+		"command": "indent_and_braces"
+	},
 	{
 		"keys": ["j"],
 		"command": "delete_matching_brackets",
@@ -311,14 +314,17 @@
 	},
 
 	{
-		"keys": ["super+ctrl+e"],
+		"keys": ["super+shift+e"],
 		"command": "swap_line_up"
 	},
 
 	{
-		"keys": ["super+ctrl+n"],
+		"keys": ["super+shift+n"],
 		"command": "swap_line_down"
-	}
+	},
+
+  { "keys": ["super+shift+option+n"], "command": "git_gutter_next_change" },
+  { "keys": ["super+shift+option+e"], "command": "git_gutter_prev_change" }
 
 	// not sure why this isn't working
 	// {
