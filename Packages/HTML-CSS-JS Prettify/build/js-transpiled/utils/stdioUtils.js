@@ -1,0 +1,54 @@
+"use strict";
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.err = exports.out = exports.info = exports.endPrettifiedCode = exports.beginPrettifiedCode = exports.endDiagnostics = exports.beginDiagnostics = void 0;
+
+var constants = _interopRequireWildcard(require("./constants"));
+
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+var beginDiagnostics = function beginDiagnostics() {
+  console.log(constants.DIAGNOSTICS_MARKER_BEGIN);
+};
+
+exports.beginDiagnostics = beginDiagnostics;
+
+var endDiagnostics = function endDiagnostics() {
+  console.log(constants.DIAGNOSTICS_MARKER_END);
+};
+
+exports.endDiagnostics = endDiagnostics;
+
+var beginPrettifiedCode = function beginPrettifiedCode() {
+  console.log(constants.PRETTIFIED_CODE_MARKER_BEGIN);
+};
+
+exports.beginPrettifiedCode = beginPrettifiedCode;
+
+var endPrettifiedCode = function endPrettifiedCode() {
+  console.log(constants.PRETTIFIED_CODE_MARKER_END);
+};
+
+exports.endPrettifiedCode = endPrettifiedCode;
+
+var info = function info() {
+  var _console;
+
+  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  return (_console = console).log.apply(_console, ['[HTMLPrettify]'].concat(args));
+};
+
+exports.info = info;
+var out = console.log;
+exports.out = out;
+var err = console.error;
+exports.err = err;
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInV0aWxzL3N0ZGlvVXRpbHMuanMiXSwibmFtZXMiOlsiYmVnaW5EaWFnbm9zdGljcyIsImNvbnNvbGUiLCJsb2ciLCJjb25zdGFudHMiLCJESUFHTk9TVElDU19NQVJLRVJfQkVHSU4iLCJlbmREaWFnbm9zdGljcyIsIkRJQUdOT1NUSUNTX01BUktFUl9FTkQiLCJiZWdpblByZXR0aWZpZWRDb2RlIiwiUFJFVFRJRklFRF9DT0RFX01BUktFUl9CRUdJTiIsImVuZFByZXR0aWZpZWRDb2RlIiwiUFJFVFRJRklFRF9DT0RFX01BUktFUl9FTkQiLCJpbmZvIiwiYXJncyIsIm91dCIsImVyciIsImVycm9yIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFJQTs7QUFKQTs7O0FBTU8sSUFBTUEsZ0JBQWdCLEdBQUcsU0FBbkJBLGdCQUFtQixHQUFNO0FBQ3BDQyxFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUMsU0FBUyxDQUFDQyx3QkFBdEI7QUFDRCxDQUZNOzs7O0FBSUEsSUFBTUMsY0FBYyxHQUFHLFNBQWpCQSxjQUFpQixHQUFNO0FBQ2xDSixFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUMsU0FBUyxDQUFDRyxzQkFBdEI7QUFDRCxDQUZNOzs7O0FBSUEsSUFBTUMsbUJBQW1CLEdBQUcsU0FBdEJBLG1CQUFzQixHQUFNO0FBQ3ZDTixFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUMsU0FBUyxDQUFDSyw0QkFBdEI7QUFDRCxDQUZNOzs7O0FBSUEsSUFBTUMsaUJBQWlCLEdBQUcsU0FBcEJBLGlCQUFvQixHQUFNO0FBQ3JDUixFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUMsU0FBUyxDQUFDTywwQkFBdEI7QUFDRCxDQUZNOzs7O0FBSUEsSUFBTUMsSUFBSSxHQUFHLFNBQVBBLElBQU87QUFBQTs7QUFBQSxvQ0FBSUMsSUFBSjtBQUFJQSxJQUFBQSxJQUFKO0FBQUE7O0FBQUEsU0FBYSxZQUFBWCxPQUFPLEVBQUNDLEdBQVIsa0JBQVksZ0JBQVosU0FBaUNVLElBQWpDLEVBQWI7QUFBQSxDQUFiOzs7QUFDQSxJQUFNQyxHQUFHLEdBQUdaLE9BQU8sQ0FBQ0MsR0FBcEI7O0FBQ0EsSUFBTVksR0FBRyxHQUFHYixPQUFPLENBQUNjLEtBQXBCIiwic291cmNlc0NvbnRlbnQiOlsiLyogVGhpcyBTb3VyY2UgQ29kZSBGb3JtIGlzIHN1YmplY3QgdG8gdGhlIHRlcm1zIG9mIHRoZSBNb3ppbGxhIFB1YmxpY1xuICogTGljZW5zZSwgdi4gMi4wLiBJZiBhIGNvcHkgb2YgdGhlIE1QTCB3YXMgbm90IGRpc3RyaWJ1dGVkIHdpdGggdGhpc1xuICogZmlsZSwgWW91IGNhbiBvYnRhaW4gb25lIGF0IGh0dHA6Ly9tb3ppbGxhLm9yZy9NUEwvMi4wLy4gKi9cblxuaW1wb3J0ICogYXMgY29uc3RhbnRzIGZyb20gJy4vY29uc3RhbnRzJztcblxuZXhwb3J0IGNvbnN0IGJlZ2luRGlhZ25vc3RpY3MgPSAoKSA9PiB7XG4gIGNvbnNvbGUubG9nKGNvbnN0YW50cy5ESUFHTk9TVElDU19NQVJLRVJfQkVHSU4pO1xufTtcblxuZXhwb3J0IGNvbnN0IGVuZERpYWdub3N0aWNzID0gKCkgPT4ge1xuICBjb25zb2xlLmxvZyhjb25zdGFudHMuRElBR05PU1RJQ1NfTUFSS0VSX0VORCk7XG59O1xuXG5leHBvcnQgY29uc3QgYmVnaW5QcmV0dGlmaWVkQ29kZSA9ICgpID0+IHtcbiAgY29uc29sZS5sb2coY29uc3RhbnRzLlBSRVRUSUZJRURfQ09ERV9NQVJLRVJfQkVHSU4pO1xufTtcblxuZXhwb3J0IGNvbnN0IGVuZFByZXR0aWZpZWRDb2RlID0gKCkgPT4ge1xuICBjb25zb2xlLmxvZyhjb25zdGFudHMuUFJFVFRJRklFRF9DT0RFX01BUktFUl9FTkQpO1xufTtcblxuZXhwb3J0IGNvbnN0IGluZm8gPSAoLi4uYXJncykgPT4gY29uc29sZS5sb2coJ1tIVE1MUHJldHRpZnldJywgLi4uYXJncyk7XG5leHBvcnQgY29uc3Qgb3V0ID0gY29uc29sZS5sb2c7XG5leHBvcnQgY29uc3QgZXJyID0gY29uc29sZS5lcnJvcjtcbiJdLCJmaWxlIjoidXRpbHMvc3RkaW9VdGlscy5qcyJ9

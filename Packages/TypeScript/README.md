@@ -85,15 +85,26 @@ The below features are available via the keyboard shortcuts shown, or via the Co
 |Build		        | (Win)`^B` or `F7`, (OSX) `⌘B` or `F7`   |
 |Error list             | (via Command Palette) |
 
-The "format on key" feature is on by default, which formats the current line after typing `;`, `}` or `enter`.
-To disable it, go to `Preferences` -> `Package Settings` -> `TypeScript` -> `Plugin Settings - User`, and add
-`"typescript_auto_format": false` to the json file.
+The "format on key" feature is disabled by default, which formats the current line after typing `;`, `}` or `enter`.
+To enable it, go to `Preferences` -> `Package Settings` -> `TypeScript` -> `Plugin Settings - User`, and add `"typescript_auto_format": true` to the json file.
 
 For further information about the keyboard shortcuts, please refer to the [`Default.sublime-keymap`](https://github.com/Microsoft/TypeScript-Sublime-Plugin/blob/master/Default.sublime-keymap) file for common shortcuts and
 [`Default (OSX).sublime-keymap`](https://github.com/Microsoft/TypeScript-Sublime-Plugin/blob/master/Default%20(OSX).sublime-keymap),
 [`Default (Windows).sublime-keymap`](https://github.com/Microsoft/TypeScript-Sublime-Plugin/blob/master/Default%20(Windows).sublime-keymap),
 [`Default (Linux).sublime-keymap`](https://github.com/Microsoft/TypeScript-Sublime-Plugin/blob/master/Default%20(Linux).sublime-keymap)
 for OS-specific shortcuts.
+
+#### Other settings
+
+These settings can be overridden in `Packages/User/TypeScript.sublime-settings`, which you can open by going to `Preferences` -> `Package Settings` -> `TypeScript` -> `TypeScript Settings - User`.
+
+- `error_color`: the color of the lines drawn underneath/around type errors; either an empty string for the default color, or one of `"region.redish"`, `"region.orangish"`, `"region.yellowish"`, `"region.greenish"`, `"region.bluish"`, `"region.purplish"`, `"region.pinkish"`
+- `error_icon`: specifies a gutter icon, defaults to nothing can be set to `"dot"`, `"circle"`, `"bookmark"` or any other value accepted by Sublime Text
+- `error_outlined`: will draw type errors with a solid outline instead of the default which is a squiggly line underneath
+- `quick_info_popup_max_width`: the max width of the quick info popup, default 1024
+- `node_args`: array of command line arguments sent to the tsserver Node.js process before the tsserver script path (useful for e.g. changing max heap size or attaching debugger to the tsserver process)
+- `tsserver_args`: array of command line arguments sent to tsserver Node.js process after the tsserver script path (useful for e.g. overriding tsserver error message locale)
+- `tsserver_env`: environment variables to set for the tsserver Node.js process (useful for e.g. setting `TSS_LOG`). These variables are merged with the environment variables available to Sublime.
 
 Project System
 ------

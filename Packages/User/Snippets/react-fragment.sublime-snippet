@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+React.Fragment>
+]]></content>
+  <tabTrigger>fragment</tabTrigger>
+  <scope>meta.jsx.js,source.jsx,source.tsx</scope>
+</snippet>

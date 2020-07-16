@@ -1,11 +1,11 @@
 """
 Sublime Text Scheme template.
 
-Converts scheme to css provides templating for
-additonal so that they can access the colors.
+Converts scheme to CSS provides templating for
+additional so that they can access the colors.
 
 Licensed under MIT
-Copyright (c) 2015 - 2016 Isaac Muse <isaacmuse@gmail.com>
+Copyright (c) 2015 - 2020 Isaac Muse <isaacmuse@gmail.com>
 
 ----------------------
 
@@ -30,6 +30,7 @@ NEW_SCHEMES = int(sublime.version()) >= 3150
 INVALID = -1
 POPUP = 0
 PHANTOM = 1
+SHEET = 2
 LUM_MIDPOINT = 127
 
 re_float_trim = re.compile(r'^(?P<keep>\d+)(?P<trash>\.0+|(?P<keep2>\.\d*[1-9])0+)$')
@@ -41,6 +42,8 @@ re_color = re.compile(r'(?<!-)(color\s*:\s*#[A-Fa-z\d]{6})')
 re_bgcolor = re.compile(r'(?<!-)(background(?:-color)?\s*:\s*#[A-Fa-z\d]{6})')
 re_pygments_selectors = re.compile(r'\.dummy (\.[a-zA-Z\d]+) ')
 CODE_BLOCKS = '.mdpopups .highlight, .mdpopups .inline-highlight { %s; %s; }'
+OLD_DEFAULT_CSS = 'Packages/mdpopups/css/default.css'
+DEFAULT_CSS = 'Packages/mdpopups/mdpopups_css/default.css'
 
 
 def fmt_float(f, p=0):
@@ -74,15 +77,17 @@ class SchemeTemplate(object):
         """Guess color."""
 
         # Remove leading '.' to account for old style CSS class scopes.
-        if not NEW_SCHEMES:
+        if self.legacy_color_matcher:
             return self.csm.guess_color(scope.lstrip('.'), selected, explicit_background)
         else:
             scope_style = view.style_for_scope(scope.lstrip('.'))
             style = {}
             style['foreground'] = scope_style['foreground']
             style['background'] = scope_style.get('background')
-            style['bold'] = scope_style['bold']
-            style['italic'] = scope_style['italic']
+            style['bold'] = scope_style.get('bold', False)
+            style['italic'] = scope_style.get('italic', False)
+            style['underline'] = scope_style.get('underline', False)
+            style['glow'] = scope_style.get('glow', False)
 
             defaults = view.style()
             if not explicit_background and not style.get('background'):
@@ -123,7 +128,7 @@ class SchemeTemplate(object):
     def get_variables(self):
         """Get variables."""
 
-        if NEW_SCHEMES:
+        if not self.legacy_color_matcher:
             is_dark = self.is_dark()
             return {
                 "is_dark": is_dark,
@@ -138,9 +143,9 @@ class SchemeTemplate(object):
             return self._variables
 
     def get_html_border(self):
-        """Get html border."""
+        """Get HTML border."""
 
-        return self.get_bg() if NEW_SCHEMES else self.html_border
+        return self.get_bg() if not self.legacy_color_matcher else self.html_border
 
     def is_dark(self):
         """Check if scheme is dark."""
@@ -150,7 +155,7 @@ class SchemeTemplate(object):
     def get_lums(self):
         """Get luminance."""
 
-        if NEW_SCHEMES:
+        if not self.legacy_color_matcher:
             bg = self.get_bg()
             rgba = RGBA(bg)
             return rgba.get_true_luminance()
@@ -160,12 +165,12 @@ class SchemeTemplate(object):
     def get_fg(self):
         """Get foreground."""
 
-        return self.view.style().get('foreground', '#000000') if NEW_SCHEMES else self.fground
+        return self.view.style().get('foreground', '#000000') if not self.legacy_color_matcher else self.fground
 
     def get_bg(self):
-        """Get backtround."""
+        """Get background."""
 
-        return self.view.style().get('background', '#FFFFFF') if NEW_SCHEMES else self.bground
+        return self.view.style().get('background', '#FFFFFF') if not self.legacy_color_matcher else self.bground
 
     def setup(self):
         """Setup the template environment."""
@@ -173,8 +178,9 @@ class SchemeTemplate(object):
         settings = sublime.load_settings("Preferences.sublime-settings")
         self.use_pygments = not settings.get('mdpopups.use_sublime_highlighter', True)
         self.default_style = settings.get('mdpopups.default_style', True)
+        self.legacy_color_matcher = not NEW_SCHEMES or settings.get('mdpopups.legacy_color_matcher', False)
 
-        if not NEW_SCHEMES:
+        if self.legacy_color_matcher:
             self.legacy_parse_global()
 
         # Create Jinja template
@@ -202,9 +208,13 @@ class SchemeTemplate(object):
             var.update(
                 {
                     'is_phantom': self.css_type == PHANTOM,
-                    'is_popup': self.css_type == POPUP
+                    'is_popup': self.css_type == POPUP,
+                    'is_sheet': self.css_type == SHEET
                 }
             )
+
+            if css == OLD_DEFAULT_CSS:
+                css = DEFAULT_CSS
 
             return self.env.from_string(
                 clean_css(sublime.load_resource(css))
@@ -335,14 +345,14 @@ class SchemeTemplate(object):
         return css
 
     def pygments(self, style):
-        """Get pygments style."""
+        """Get Pygments style."""
 
         return get_pygments(style)
 
     def retrieve_selector(self, selector, key=None, explicit_background=True):
         """Get the CSS key, value pairs for a rule."""
 
-        if NEW_SCHEMES:
+        if not self.legacy_color_matcher:
             general = self.view.style()
             fg = general.get('foreground', '#000000')
             bg = general.get('background', '#ffffff')
@@ -370,19 +380,21 @@ class SchemeTemplate(object):
                 css.append('font-weight: bold')
             if "italic" in s and (key is None or key == 'font-style'):
                 css.append('font-style: italic')
-            if "underline" in s and (key is None or key == 'text-decoration') and False:  # disabled
+            if "underline" in s and (key is None or key == 'text-decoration'):
                 css.append('text-decoration: underline')
+            if "glow" in s and (key is None or key == 'text-shadow'):
+                css.append('text-shadow: 0 0 3px currentColor')
         text = ';'.join(css)
         if text:
             text += ';'
         return text
 
     def apply_template(self, view, css, css_type, template_vars=None):
-        """Apply template to css."""
+        """Apply template to CSS."""
 
         self.view = view
 
-        if css_type not in (POPUP, PHANTOM):
+        if css_type not in (POPUP, PHANTOM, SHEET):
             return ''
 
         self.css_type = css_type
@@ -397,7 +409,8 @@ class SchemeTemplate(object):
         var.update(
             {
                 'is_phantom': self.css_type == PHANTOM,
-                'is_popup': self.css_type == POPUP
+                'is_popup': self.css_type == POPUP,
+                'is_sheet': self.css_type == SHEET
             }
         )
 
@@ -406,9 +419,9 @@ class SchemeTemplate(object):
 
 def get_pygments(style):
     """
-    Get pygments style.
+    Get Pygments style.
 
-    Subllime CSS support is limited.  It cannot handle well
+    Sublime CSS support is limited.  It cannot handle well
     things like: `.class1 .class2`,  but it can handle things like:
     `.class1.class2`.  So we will not use things like `.highlight` in front.
 
@@ -419,7 +432,7 @@ def get_pygments(style):
     """
 
     try:
-        # Lets see if we can find the pygments theme
+        # Lets see if we can find the Pygments theme
         text = HtmlFormatter(style=style).get_style_defs('.dummy')
         text = re_missing_semi_colon.sub('; }', text)
     except Exception:
@@ -447,7 +460,7 @@ def get_pygments(style):
     if fg is None:
         fg = 'color: #000000'
 
-    # Reassemble replacing .highlight {...} with .codehilite, .inlinehilite {...}
+    # Reassemble replacing .highlight {...} with `.codehilite`, `.inlinehilite` {...}
     # All other classes will be left bare with only their syntax class.
     code_blocks = CODE_BLOCKS
     if m:

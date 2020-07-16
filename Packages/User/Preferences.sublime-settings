@@ -1,20 +1,24 @@
 {
-	"auto_complete": false,
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
 	"binary_file_patterns":
 	[
 		"typings/*",
 		"app/*",
-		"build/*"
+		"build/*",
+		".git/*"
 	],
 	"bs_sintax": "plain text",
 	"color_scheme": "Packages/User/Color Scheme - Raine's Monokai.tmTheme",
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"package-lock.json"
+	],
 	"folder_exclude_patterns":
 	[
-		".svn",
-		".git",
-		".hg",
-		"CVS",
-		"node_modules"
+		"node_modules",
+		".git"
 	],
 	"font_size": 10,
 	"highlight_line": true,

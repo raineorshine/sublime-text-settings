@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "useBuiltIns": "usage"
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/transform-runtime",
+    "@babel/syntax-object-rest-spread",
+    "@babel/transform-async-to-generator"
+  ]
+}
