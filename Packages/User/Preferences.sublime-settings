@@ -3,29 +3,31 @@
 	"auto_complete_commit_on_tab": true,
 	"binary_file_patterns":
 	[
-		"typings/*",
-		"app/*",
+		".git/*",
 		"build/*",
-		".git/*"
+		"dist/*",
+		"docs/*",
+		"typings/*"
 	],
 	"bs_sintax": "plain text",
 	"color_scheme": "Packages/User/Color Scheme - Raine's Monokai.tmTheme",
 	"file_exclude_patterns":
 	[
 		".DS_Store",
-		"package-lock.json"
+		"package-lock.json",
+		".eslintcache",
 	],
 	"folder_exclude_patterns":
 	[
 		"node_modules",
-		".git"
+		".git",
+		".firebase"
 	],
 	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"SideBarEnhancements",
-		"TabNine"
+		"SideBarEnhancements"
 	],
 	"index_exclude_patterns":
 	[
@@ -45,7 +47,7 @@
 	"tab_size": 2,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_whitespace_on_save": true,
 	"vintage_start_in_command_mode": true,
 	"word_wrap": true
 }

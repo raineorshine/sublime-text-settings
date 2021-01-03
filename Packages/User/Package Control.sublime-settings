@@ -47,11 +47,11 @@
 		"Stylus",
 		"SublimeLinter",
 		"SublimeLinter-tslint",
-		"TabNine",
 		"TabsExtra",
 		"Terminal",
 		"Theme - Soda",
 		"TypeScript",
+		"Vue Syntax Highlight",
 		"WordCount"
 	]
 }
