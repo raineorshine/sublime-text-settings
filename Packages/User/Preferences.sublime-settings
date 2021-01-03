@@ -15,7 +15,7 @@
 	[
 		".DS_Store",
 		"package-lock.json",
-		".eslintcache",
+		".eslintcache"
 	],
 	"folder_exclude_patterns":
 	[
@@ -48,6 +48,7 @@
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_whitespace_on_save": true,
+	"typescript_tsdk": "node_modules/typescript/lib",
 	"vintage_start_in_command_mode": true,
 	"word_wrap": true
 }
