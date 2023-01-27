@@ -53,7 +53,7 @@ matrix:
       - .md-source__repository
       - .headerlink
       - .md-icon
-      - .md-footer-social__link
+      - .md-social__link
   - pyspelling.filters.url:
 
 - name: markdown
@@ -79,7 +79,7 @@ matrix:
 
 - name: python
   sources:
-  - "{st3,tests}/**/*.py|!**/png.py"
+  - "{st3,tests}/**/*.py|!**/png.py|!**/{coloraide,yaml,markdown,pygments,markupsafe,jinja2,pygments,pymdownx}/**"
   aspell:
     lang: en
   dictionary:

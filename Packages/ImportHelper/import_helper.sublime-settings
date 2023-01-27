@@ -1,0 +1,55 @@
+{
+    // What kind of quotes will be used in import statement.
+    // - Type: `string`
+    // - Default: `'`
+    "from_quote": "'",
+
+    // Remove semicolon at the end of `import` string.
+    // - Type: `boolean`
+    // - Default: `false`
+    "no_semicolon": false,
+
+    // Insert space after opening and before closing non empty braces.
+    // - Type: `boolean`
+    // - Default: `true`
+    "insert_space_in_braces": true,
+    
+    // Sometimes sublime cannot find node executable, if it happens. Set `node_bin` explicitly (e.g. c:/nodejs/node.exe)
+    // - Type: `string`
+    // - Default: `` (auto detect)
+    "node_bin": "",
+    
+    // How to apply path mapping (read more about [Module Resolution and Path Mapping](http://www.typescriptlang.org/docs/handbook/module-resolution.html)).  
+    // Disabled by default (`disabled`).  
+    // If `enabled` implementation will try to find first matching alias.  
+    // - Type: `string`  
+    // - Enum: `['disabled', 'enabled']`  
+    // - Default: `enabled`  
+    "import_path_mapping": "enabled",
+    
+    // Show all possible export names from sources and node modules in autocomplete menu.  
+    // - Type: `boolean`  
+    // - Default: `true`
+    "autocomplete_export_names": true,
+    
+    // Automatically add import statement if export name was selected from autocomplete menu (Ctrl + Space).  
+    // Requires `autocomplete_export_names: true`.  
+    // - Type: `boolean`  
+    // - Default: `false`
+    "autocomplete_auto_import": false,
+
+    // Remove trailing index in import path
+    // - Type: `boolean`  
+    // - Default: `false`
+    "remove_trailing_index": true,
+
+    // Option what to do with file extension in import statement.
+    // -   Type: `string`
+    // -   Default: `remove`
+    // Options:
+    // -   **`remove`** js/ts/jsx/tsx extension will be removed
+    // -   **`js`** js/ts/jsx/tsx will be replaced to js
+    // -   **`as_is`** will stay as is
+    "import_file_extension": "remove"
+}
+

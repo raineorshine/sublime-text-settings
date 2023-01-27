@@ -5,9 +5,9 @@ Licensed under MIT
 Copyright (c) 2015 - 2020 Isaac Muse <isaacmuse@gmail.com>
 """
 import re
-from pygments import highlight
-from pygments.lexers import get_lexer_by_name, guess_lexer
-from pygments.formatters import find_formatter_class
+from .pygments import highlight
+from .pygments.lexers import get_lexer_by_name, guess_lexer
+from .pygments.formatters import find_formatter_class
 HtmlFormatter = find_formatter_class('html')
 pygments = True
 
@@ -45,7 +45,7 @@ class SublimeWrapBlockFormatter(HtmlFormatter):
         to 4 spaces as well.  We also manually inject line breaks.
         """
 
-        yield 0, '<div class="%s"><pre>' % self.cssclass
+        yield 0, '<div class="{}"><pre>'.format(self.cssclass)
         for i, t in source:
             text = ''
             matched = False
@@ -89,7 +89,7 @@ class SublimeBlockFormatter(HtmlFormatter):
         to 4 spaces as well.  We also manually inject line breaks.
         """
 
-        yield 0, '<div class="%s"><pre>' % self.cssclass
+        yield 0, '<div class="{}"><pre>'.format(self.cssclass)
         for i, t in source:
             text = ''
             matched = False
@@ -133,7 +133,7 @@ class SublimeInlineHtmlFormatter(HtmlFormatter):
         to 4 spaces as well.
         """
 
-        yield 0, '<code class="%s">' % self.cssclass
+        yield 0, '<code class="{}">'.format(self.cssclass)
         for i, t in source:
             text = ''
             matched = False

@@ -1,0 +1,1 @@
+{"sublime_text": ">=3000", "platforms": ["*"], "description": "Gitignore plugin for Sublime Text 3 and 4", "version": "1.0.2301", "dependencies": [], "url": "https://github.com/vilhelmen/Sublime-Gitignore"}

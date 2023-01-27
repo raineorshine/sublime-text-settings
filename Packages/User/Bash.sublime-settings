@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		".env",
+		"local",
+		"production",
+		"development"
+	]
+}

@@ -434,5 +434,16 @@
 				"operand": "source.ts, source.tsx, source.js, source.jsx" 
 			}
     ]
-  }
+  },
+
+  {
+  	"keys": ["super+control+backspace"],
+  	"command": "delete_current_file"
+  },
+
+  // https://packagecontrol.io/packages/JsPrettier
+  { 
+ 		"keys": ["super+option+p"], "command": "js_prettier" 
+  } 
+
 ]

@@ -1,0 +1,48 @@
+name: build
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: 'Test on Sublime ${{ matrix.st-version }} and ${{ matrix.os }}'
+    strategy:
+      fail-fast: false
+      matrix:
+        st-version: [3, 4]
+        os: ['ubuntu-latest', 'macOS-latest', 'windows-latest']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - uses: actions/checkout@v2
+      - uses: SublimeText/UnitTesting/actions/setup@v1
+        with:
+          sublime-text-version: ${{ matrix.st-version }}
+          package-name: ImportHelper
+      - uses: SublimeText/UnitTesting/actions/run-tests@v1
+        with:
+          package-name: ImportHelper
+          coverage: true
+          codecov-upload: false
+
+  release:
+    name: 'Release'
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/next')
+    steps:
+      - name: 'Checkout repository'
+        uses: actions/checkout@v3
+      - name: 'Setup Node'
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: 'Install depependencies'
+        run: |
+          npm install
+      - name: 'Release'
+        run: |
+          npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

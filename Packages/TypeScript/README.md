@@ -13,11 +13,10 @@ The plug-in uses **Node.js** to run the TypeScript server.  The plug-in looks fo
 If the `node_path` setting is present, this will override the PATH environment variable and the plug-in will use the value of the `node_path` setting as the node executable to run.
 See more information in [our Tips and Known Issues](https://github.com/Microsoft/TypeScript-Sublime-Plugin/wiki/Tips-and-Known-Issues) wiki page.
 
-Note: Using different versions of TypeScript
+Using different versions of TypeScript
 --------------
-This plugin can be configured to load an alternate version of TypeScript.
-This is typically useful for trying out nightly builds, or prototyping with custom builds.
-To do that, update the `Settings - User` file with the following:
+
+This plugin can be configured to load an alternate version of TypeScript. This is typically useful for trying out nightly builds, prototyping with custom builds, or compatibility with node_modules-free package managers like Yarn 2. To do that, update the `Settings - User` file or your project settings with the following:
 
 ```json5
 "typescript_tsdk": "<path to your folder>/node_modules/typescript/lib"
@@ -105,6 +104,7 @@ These settings can be overridden in `Packages/User/TypeScript.sublime-settings`,
 - `node_args`: array of command line arguments sent to the tsserver Node.js process before the tsserver script path (useful for e.g. changing max heap size or attaching debugger to the tsserver process)
 - `tsserver_args`: array of command line arguments sent to tsserver Node.js process after the tsserver script path (useful for e.g. overriding tsserver error message locale)
 - `tsserver_env`: environment variables to set for the tsserver Node.js process (useful for e.g. setting `TSS_LOG`). These variables are merged with the environment variables available to Sublime.
+- `auto_complete_api_completions_only`: boolean to make the autocompletion only provides typescript suggestions and hides the standard completions (aka, all the words of the page). (Default value: `false`). 
 
 Project System
 ------

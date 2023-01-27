@@ -1,0 +1,6 @@
+{
+    // Remove semicolon at the end of `import` string.
+    // - Type: `boolean`
+    // - Default: `false`
+    "no_semicolon": true,
+}

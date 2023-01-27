@@ -1,8 +1,8 @@
+*.cache
+*.crt
 Backup
 Cache
 Index
 Local
+Log
 Settings
-*.cache
-Packages/User/Package Control*
-*.crt

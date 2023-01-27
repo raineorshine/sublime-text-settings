@@ -1,0 +1,4 @@
+// Settings in here override those in "openAI/openAI.sublime-settings"
+{
+  "token": "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"
+}
