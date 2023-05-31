@@ -3,4 +3,9 @@
     // - Type: `boolean`
     // - Default: `false`
     "no_semicolon": true,
+
+    // Sometimes sublime cannot find node executable, if it happens. Set `node_bin` explicitly (e.g. c:/nodejs/node.exe)
+    // - Type: `string`
+    // - Default: `` (auto detect)
+    "node_bin": "/Users/raine/.nvm/versions/node/v16.15.1/bin/node"
 }
